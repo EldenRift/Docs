@@ -1,5 +1,0 @@
-# Welcome to the Elden Rift Documentation
-
-## 1. Rules
-
-Welcome to Elden Rift, an RPG server where players embark on epic journeys across diverse realms.
