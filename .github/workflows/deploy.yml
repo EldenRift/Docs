@@ -16,6 +16,8 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages  # Adding the required environment field
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
