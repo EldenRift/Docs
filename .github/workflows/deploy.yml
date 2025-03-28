@@ -17,7 +17,7 @@ concurrency:
 jobs:
   deploy:
     environment:
-      name: github-pages  # Adding the required environment field
+      name: github-pages  # Ensure you're deploying to the correct environment
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -35,12 +35,15 @@ jobs:
 
       - name: Build documentation
         run: |
-          make html
+          make html  # Ensure this generates the correct static content
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build/html'
+          path: 'build/html'  # Ensure this path matches your output
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+        with:
+          branch: gh-pages  # Specify the gh-pages branch if that's where you're deploying to
+          folder: build/html  # Ensure the build folder is correct
