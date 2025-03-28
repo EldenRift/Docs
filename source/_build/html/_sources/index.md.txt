@@ -8,7 +8,7 @@ Welcome to Elden Rift, an RPG server where players embark on epic journeys acros
 
 >- **Explore the Overworld:** The world is vast and filled with different biomes, each with its own environment, resources, and challenges. Find the ideal biome for your race to thrive in.
 
->- **Claim Your Territory:** Once you've found your perfect biome, claim land to start building your tribe. Your actions will help your tribe evolve into a village, city, kingdom, or even an empire!
+>- **Claim Your Territory:** Find the perfect biome, claim your land, and start growing your community. Enhance your town’s capacity by upgrading members, vaults, and outposts until it thrives into a bustling settlement!
 
 >- **Level Up Your Tribe:** As you grow, your tribe can evolve, unlocking new powers and structures. Defeat bosses to progress and uncover new areas of the world.
 
@@ -818,3 +818,5 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 ### **Abyssal Knight**  
 **Void’s Dark Paladin**  
 > Fights for eternal darkness.   
+
+---
