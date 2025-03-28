@@ -333,15 +333,15 @@ Frozen version of the Stonegate Seas, with frozen water segments, and large ice 
 ### 5.9 **Biome Race Summary**
 
 | Biome Category      | Races                                                                 |    
-|---------------------|-----------------------------------------------------------------------|
-| **Forest Biomes**   | 6 raças (Elves x2, Fairy x2, Dark Elves, Whelps)                      |  
-| **Mountain Biomes** | 5 raças (Angels, Dragonborn, Dwarves, Orcs, Goblins)                  |  
-| **Desert Biomes**   | 3 raças (Goblins x2, Lizardfolk)                                      |  
-| **Swamp Biomes**    | 2 raças (Vampire, Lizardfolk)                                         |  
-| **Tundra Biomes**   | 4 raças (Dark Elves, Whelps, Golems x2)                               |  
-| **Cave Biomes**     | 2 raças (Dwarves, Demons)                                             |  
-| **Plain Biomes**    | 2 raças (Humans x2)                                                   |  
-| **Unique Biomes**   | 1 raça (Demons)                                                       |  
+|---------------------|-----------------------------------------------------------------------|  
+| **Forest Biomes**   | 7 races (Elves, Fairy x2, Dark Elves, Whelps, Firbolg)                |  
+| **Mountain Biomes** | 7 races (Angels, Dragonborn, Dwarves, Orcs, Goblins, Tiefling, Goliaths)|  
+| **Desert Biomes**   | 3 races (Goblins x2, Lizardfolk, Tiefling)                            |  
+| **Swamp Biomes**    | 3 races (Vampires, Lizardfolk, Tritons)                               |  
+| **Tundra Biomes**   | 5 races (Dark Elves, Whelps, Golems x2)                               |  
+| **Cave Biomes**     | 3 races (Dwarves, Demons, Firbolg)                                    |  
+| **Plain Biomes**    | 3 races (Humans x2, Elves)                                            |  
+| **Unique Biomes**   | 1 race (Demons)                                                       | 
 
 ---
 
