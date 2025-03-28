@@ -1,0 +1,23 @@
+# Welcome to the Elden Rift Documentation
+
+## 1. Rules
+
+Welcome to Elden Rift, an RPG server where players embark on epic journeys across diverse realms. Here's a quick look at what to expect:
+
+>- **Choose Your Race:** Start your adventure by selecting a race and discovering your unique passive traits.
+
+>- **Explore the Overworld:** The world is vast and filled with different biomes, each with its own environment, resources, and challenges. Find the ideal biome for your race to thrive in.
+
+>- **Claim Your Territory:** Once you've found your perfect biome, claim land to start building your tribe. Your actions will help your tribe evolve into a village, city, kingdom, or even an empire!
+
+>- **Level Up Your Tribe:** As you grow, your tribe can evolve, unlocking new powers and structures. Defeat bosses to progress and uncover new areas of the world.
+
+>- **Race Dynamics:** Each race has unique passive traits that define their strengths and weaknesses. These traits can give you an advantage in certain biomes, so use them wisely. As you progress, your race can evolve, unlocking new potential and traits that will help you and your tribe grow stronger.
+
+>- **Uncover the Lore:** As you explore, discover the rich lore of Elden Rift. From ancient events to the secrets of each race, uncover the hidden history that shapes the world.
+
+>- **Boss Fights:** Encounter powerful bosses scattered across the world. These encounters are key to progressing through the server and unlocking new regions and abilities.
+
+In Elden Rift, your journey is shaped by your choices and the races you interact with. Will you rise as a hero, a tyrant, or a ruler? The choice is yours in Elden Rift!
+
+---
