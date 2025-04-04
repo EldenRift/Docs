@@ -35,3 +35,4 @@ html_theme_options = {
 }
 html_css_files = ["custom.css"]
 html_baseurl = "https://eldenrift.github.io/Docs/"
+html_baseurl = "https://eldenrift.github.io/Docs/"

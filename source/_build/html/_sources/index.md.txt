@@ -24,31 +24,41 @@ In Elden Rift, your journey is shaped by your choices and the races you interact
 
 ## 2. Elden Rift Prologue Lore 📜
 
-In the **age of awakening**, the world emerged from the mists of time, divided into realms of light and shadow. Above all, the **floating isle of Aetheris Haven** shone with eternal radiance, serving as the cradle of creation and the beacon of peace. Here, **celestial beings** and **ancient guardians** nurtured the seeds of life, ensuring harmony among the stars.
+In the Age of Awakening, the world emerged from the mists of time, divided into realms of light and shadow. High above all, the floating isle of Aetheris Haven shimmered with eternal radiance. It stood as the cradle of creation and the beacon of peace. From its sacred light unfurled the vibrant lands of Eldoria, where mortal destinies danced with whispered legends. To the south, the burning depths of Ignis Abyss churned with flame and fury, while the silent void of Nyxvoid concealed mysteries too terrible to name.
 
-Across the vast expanse, the **Overworld of Eldoria** thrived with vibrant life and whispered legends. Amid sprawling forests, sparkling rivers, and hidden glades, mortal races carved their destinies, balancing **order** and **chaos** under a sun that blazed by day and ceded to mysterious forces at night.
+In this vast and living tapestry, ancient forces began to stir. Deep within the endless void of the End, a presence older than memory kept watch over a pulsing source of raw, untamed power. It remained unseen, its influence stretching across time like a shadow behind the stars. Not far from this unseen sentinel, a spectral warrior wandered through the emptiness. Clad in cursed armor and wielding a blade as old as sorrow, he moved with eerie grace. Shaped by darkness and reborn from the abyss, he brought silent ruin to all who stood before him, entire civilizations erased by the echo of his passing.
 
-Beneath this tapestry of life, the **Nether’s Ignis Abyss** raged with infernal fury. Here, flames and devastation ruled, birthing **demonic legions** whose relentless power sought to reshape the world. Far beyond, in the silent void of **Nyxvoid**, darkness reigned supreme. In this realm of absolute obscurity, **forgotten terrors** and **ancient deities** stirred, their secrets locked within the void.
+Across the fractured lands, decay moved as if alive. A creeping specter wandered the ruins, its footsteps withering the ground, a harbinger of nature’s inevitable decline. Within the molten heart of Ignis Abyss, a grotesque figure reigned with monstrous hunger. Once a man, he had long since surrendered to gluttony and corruption, becoming the living embodiment of excess. Twisted by the abyss into something no longer mortal, he consumed not only food, but life itself. His presence left entire regions barren and hollow.
 
-Now, as the cosmic balance teeters on the edge, **heroes** and **legends rise**. They traverse these treacherous lands, seeking unity against impending calamity. The fate of every realm hangs in the balance, and only those with courage and wisdom can uncover the truth behind this timeless conflict.
+Yet even in such a bleak age, tales of sorrow and love endured. Among the most haunting was the legend of two noble warriors, once united by honor and bound by passion. Their names were once spoken with reverence, their bond a symbol of hope. But destiny wove cruelty into their fate, and a forbidden curse tore their hearts apart. Where once they fought side by side, now they met in endless, mournful battle, locked in a dance of steel and regret that stretched through lifetimes. Their love lived on as a tragedy etched into time.
+
+Beneath the fabric of the world, whispers of forgotten divinities stirred. Celestial beings, once revered, now moved unseen beyond the veil of mortal comprehension. Their radiant magic, once pure and harmonious, had curdled into weapons of ruin. The skies bore the scars of their ancient wrath, and where light had once guided, it now blinded. These divine remnants, neither wholly good nor evil, became both guides and omens. Their influence shaped fate in ways few could understand.
+
+At the threshold between life and oblivion, silent knights rode. Clad in obsidian armor and bound by ancient oaths, they patrolled the edges of destiny itself. They did not speak, nor did they falter. Their presence was a grim reminder that the balance between chaos and order was kept not by kings or gods, but by forces far older and far colder. At their head rode a solitary figure, the Keeper of Forgotten Names. He watched the passage of souls with eyes that had seen too much, guarding secrets that, if unraveled, could undo the weave of the world.
+
+Within the scorched deeps of Ignis Abyss, the forge of legends still burned. At its heart stood a master of fire and steel, his hands shaping not only weapons but destinies. His creations bore the weight of stories yet to be told, revered by warriors and feared by tyrants. Each blade he forged held the potential to safeguard the realms or reduce them to ash. In every strike of his hammer echoed the paradox of creation and destruction, life bound to death.
+
+And so the world teetered, caught between unraveling legacies and the stirrings of change. In the space between realms, in the silence of forgotten memories, something ancient was awakening. It was a subtle force, unseen yet ever-present, a quiet promise of transformation. The brave would rise to seek truths buried in darkness, and even the faintest flicker of hope could ignite a fire strong enough to challenge fate.
+
+For those who dared step into this realm, the path forward was uncertain. Twisting through ruins, riddles, and revelation, each step drew closer to forgotten truths and the unspoken question at the heart of all things. Who would shape the future? And who would be shaped by it?
 
 ---
 
 ## 3. World Names 🗺️
 
-Conheça os mundos de **Elden Rift** e seus nomes correspondentes no **Minecraft**:
+Explore the worlds of **Elden Rift** and their corresponding names in **Minecraft**:
 
 - **Aetheris Haven** *(Spawn)*:  
-O berço da criação e luz eterna.
+The cradle of creation and eternal light, a serene sanctuary where life begins and celestial energies guide the first steps.
   
 - **Eldoria** *(Overworld)*:  
-Um mundo vibrante, com paisagens diversas, desde florestas exuberantes até vastas montanhas.
+A vibrant world of diverse landscapes, from lush exuberant forests to vast towering mountains, brimming with hidden wonders and ancient mysteries.
   
 - **Ignis Abyss** *(Nether)*:  
-Um domínio de destruição e caos, onde o fogo nunca apaga.
+A realm of relentless destruction and chaotic fury, where unquenchable flames sculpt a land of infernal power and ceaseless turmoil.
 
 - **Nyxvoid** *(End)*:  
-O mundo das trevas, onde tudo é desconhecido e antigo.
+The realm of darkness, a mysterious and ancient world where everything is unknown, and forgotten secrets and primeval forces lie in wait.
 
 ---
 
@@ -333,15 +343,15 @@ Frozen version of the Stonegate Seas, with frozen water segments, and large ice 
 ### 5.9 **Biome Race Summary**
 
 | Biome Category      | Races                                                                 |    
-|---------------------|-----------------------------------------------------------------------|
-| **Forest Biomes**   | 6 raças (Elves x2, Fairy x2, Dark Elves, Whelps)                      |  
-| **Mountain Biomes** | 5 raças (Angels, Dragonborn, Dwarves, Orcs, Goblins)                  |  
-| **Desert Biomes**   | 3 raças (Goblins x2, Lizardfolk)                                      |  
-| **Swamp Biomes**    | 2 raças (Vampire, Lizardfolk)                                         |  
-| **Tundra Biomes**   | 4 raças (Dark Elves, Whelps, Golems x2)                               |  
-| **Cave Biomes**     | 2 raças (Dwarves, Demons)                                             |  
-| **Plain Biomes**    | 2 raças (Humans x2)                                                   |  
-| **Unique Biomes**   | 1 raça (Demons)                                                       |  
+|---------------------|-----------------------------------------------------------------------|  
+| **Forest Biomes**   | 7 races (Elves, Fairy x2, Dark Elves, Whelps, Firbolg)                |  
+| **Mountain Biomes** | 7 races (Angels, Dragonborn, Dwarves, Orcs, Goblins, Tiefling, Goliaths)|  
+| **Desert Biomes**   | 3 races (Goblins x2, Lizardfolk, Tiefling)                            |  
+| **Swamp Biomes**    | 3 races (Vampires, Lizardfolk, Tritons)                               |  
+| **Tundra Biomes**   | 5 races (Dark Elves, Whelps, Golems x2)                               |  
+| **Cave Biomes**     | 3 races (Dwarves, Demons, Firbolg)                                    |  
+| **Plain Biomes**    | 3 races (Humans x2, Elves)                                            |  
+| **Unique Biomes**   | 1 race (Demons)                                                       | 
 
 ---
 
@@ -460,361 +470,167 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 --- 
 
 ## 9. Boss Descriptions 👹
+Weakest to Strongest
 
 ### **Moon Glow**  
-**Apóstolo dos Lunar Gods**  
-> Rewards bright offerings but summons eternal night to punish attackers.  
+**The Guiding Light**  
+Bathed in an ethereal, silvery radiance, Moon Glow is a spectral reminder that even in darkness, beauty endures. Its gentle luminescence stands as a beacon in the shadows, a quiet and mesmerizing presence that captivates all who encounter it. This enigmatic entity is not one of malice, but a guide offering the promise of rebirth and hidden truths to those who seek it.
 
+Moon Glow is not hostile, but its favor is not easily won. He accepts gifts from those who seek his aid, yet not all offerings are welcome. Only specific types of gifts, carefully chosen and imbued with sincerity, are worthy of his attention. Those who present such gifts with genuine intention will receive guidance, and in some cases, even a glimpse of the secrets that lie beyond mortal understanding.
 
-### **Shady Merchant**  
-**Mysterious Wanderer**  
-> An enigmatic trader roaming **Eldoria**. What’s his agenda? **No one knows.**  
-
-
-### **Basalt Guardian**  
-**Nether’s Stone Sentinel**  
-> Protects basalt mines in the Nether. **Avoid its gaze!**  
-
-
-### **Banso the Bandit King**  
-**Thief Overlord**  
-> Steals from all who cross his path. Rumored to hide a **legendary treasure**.  
-
-
-### **Dragon Sentinel**  
-**Nest Guardian**  
-> Shapeshifts into a dragon to protect her kin **at all costs**.  
-
-
-### **Dreadroot**  
-**Corruptive Shadow Plant**  
-> Grows in darkness. **Beware its entangling roots!**  
-
-
-### **Krampus Xmas Boss**  
-**Festive Judge**  
-> **"THE LOATHESOME KRAMPUS HAS ARRIVED!"** Judges players as *Impish* or *Admirable* during festive chaos.  
-
-
-### **The Astral Archon**  
-**Galaxy-Embodied Mage**  
-> Commands cosmic energy to **obliterate foes**.  
-
-
-### **Tower Skeleton**  
-**Undead Summoner**  
-> Raises skeletal minions from necrotic towers.  
-
-
-### **Wendigo**  
-**Deceptive Predator**  
-> Disguises as a harmless cow. **Falling for its trap spells doom.**  
-
-
-### **Yukio the Ice Dragon**  
-**Guardian of Northfell**  
-> Protects her egg. Players must **sneak to steal it** for quests or pets.  
-
-
-### **Boreal Druid**  
-**Ice Forest Mage**  
-> Summons blizzards and glacial constructs to defend allies.  
-
-
-### **Eldric the Blacksmith**  
-**Giant Red Orc**  
-> Interrupt his forging at your peril! Wields **molten fury**.  
-
-
-### **Gargoyle**  
-**Stone Menace**  
-> Animates when intruders approach. **Stone claws strike fast!**  
- 
-
-### **Hollow Keeper**  
-**Possessed Mining Gear**  
-> Abandoned equipment that awakens to crush trespassers.  
- 
-
-### **Hydra**  
-**Multi-Headed Beast**  
-> Sever one head, two more take its place.  
-
-
-### **Kaz'k the Queen**  
-**Void-Born Insectoid**  
-> Seeks to establish a new hive in the Overworld.  
-
-
-### **Parasitic Abomination**  
-**Unknown Origin**  
-> A grotesque void-spawn here only to kill.  
-
-
-### **Piglin Mech**  
-**Nether’s Agile King**  
-> Surprisingly nimble when not carried by servants.  
-
-
-### **The Beholder**  
-**Flying Ocular Horror**  
-> Lasers blast from its central eye.  
-
-
-### **Wither Storm**  
-**Void Incarnate**  
-> Consumes everything in its path. **Run. Now.**  
-
-
-### **Into The Light Boss**  
-**Fanatic Angel**  
-> Uses light mirrors to purge "evil." Everything is evil to him.  
-
-### **Forest Depths**  
-**Spirit of the Forest**  
-> Immortal guardian summoned by a shaman’s dying ritual. **Destroy its totem!**  
-
-
-### **Mutant Zombie Boss**  
-**Void-Corrupted Undead**  
-> A hulking, twisted monstrosity.  
-
-
-### **Wardens**  
-**Deep Dark Terrors**  
-> Sense vibrations and heartbeats. **Silence is survival.**  
-
-
-### **The Icebear**  
-**Arcane Frost Beast**  
-> Commands blizzards and glacial magic.  
- 
-
-### **Raven Knights**  
-**Cursed Duo**  
-> Bound to eternal combat by a dark curse.  
- 
-
-### **Terravore Drake, Skywhisper Wyvern & Flarewing Dragon**  
-**Dragon Trio**  
-> Siblings guarding the skies. Sons of the great dragon.  
-
-
-### **Void Souls Boss - Infernal Marauder**  
-**Underestimated Void Demon**  
-> A mid-rank demon with devastating fire attacks.  
-
-
-### **Azazel**  
-**Extradimensional Enigma**  
-> Origin unknown. **Not of this world.**  
-
-
-### **Cyclops**  
-**One-Eyed Brute**  
-> Strong but dim-witted mini-giants.  
-
-
-### **Demon Reaper**  
-**Mid-Rank Assassin**  
-> Lightning-fast scythe-wielder.  
- 
-
-### **Dimmer Sister**  
-**Light Manipulator**  
-> Morally ambiguous sorceress. **Friend or foe?**  
-
-
-### **The Forgotten Terrors**  
-**Void-Born Evils**  
-> Legends best left forgotten. **Pure malice.**  
- 
-
-### **Shadow Sorcerer**  
-**Darkness Aspirant**  
-> Seeks dominion over shadows.  
-
-
-### **Ghost Bride**  
-**Phantom Avenger**  
-> Controls the spectral snake that killed her. **Eternal vengeance.**  
-
-
-### **The Gravekeeper**  
-**Undead Overlord**  
-> Summons ghouls to defend cursed tombs.  
-
-
-### **Graceless Omen**  
-**High-Rank Demoness**  
-> Mysterious motives. **Chaos incarnate.**  
-
-
-### **Guardians of Light**  
-**Holy Paladins**  
-> Protectors of purity and light.  
-
-
-### **Duke Snipperjack**  
-**Hauntingly Refined**  
-> *“Why settle for mere fright?”* – Halloween aristocrat.  
-
-
-### **Anubis**  
-**Egyptian God of Death**  
-> Judges souls with golden scales.  
-
-
-### **Azriel**  
-**Angel of Death**  
-> Ferries souls to the afterlife.  
-
-
-### **Capra the Goat Demon**  
-**Horned Menace**  
-> Commands goat legions with demonic speed.  
-
-
-### **Cerberus**  
-**Three-Headed Guardian**  
-> Guards the underworld’s gates.  
-
-
-### **Corrupt Golem King**  
-**Crown-Possessed Golem**  
-> Spreads mechanical corruption.  
-
-
-### **Giant Turtle**  
-**Beach Colossus**  
-> Slow but impervious shell. **Awaken at your peril.**  
-
-
-### **GOBLIN TEK**  
-**Steampunk Goblin**  
-> Pilots clanking war machines.  
-
-
-### **Medusa**  
-**Petrifying Gorgon**  
-> Meet her gaze, become stone.  
-
-
-### **Yeti**  
-**Frost Beast**  
-> Commands blizzards and ice magic.  
-
-
-### **Nemesis**  
-**Demon Lord’s Guard**  
-> Loyal enforcer of infernal will.  
-
-
-### **Shadow Guardians**  
-**Undead Sentinels**  
-> Protect shadow realms from intruders.  
-
-
-### **The Demon Hunter**  
-**Antihero of Darkness**  
-> Fights fire with fire. **Embraced the void to destroy it.**  
-
-
-### **Necromancer**  
-**Undead Puppeteer**  
-> Raises corpses as minions.  
-
-
-### **Oog, The Cyclops!**  
-**Earth-Shaping Chieftain**  
-> Leader of the cyclops. **Controls terrain.**  
-
-
-### **Priest**  
-**Divine Golem**  
-> Channels holy light to smite foes.  
-
-
-### **Rats**  
-**Void-Mutated Rodents**  
-> Gigantic, intelligent, and **hungry**.  
-
-
-### **Roman God Pluto**  
-**Anubis’ Rival**  
-> Claims souls for the Roman underworld.  
-
-
-### **The Archangel**  
-**Celestial Commander**  
-> Wields solar wrath against darkness.  
-
-
-### **The Soul Knight**  
-**Phantom Lancer**  
-> Charges enemies on ghostly horseback.  
-
-
-### **The Overlord**  
-**God or Demon?**  
-> Unquestionably omnipotent. **Origin unknown.**  
-
-
-### **The Lovers, Samurai Couple**  
-**Cursed Duo**  
-> Hanashiguro and his undead wife duel eternally.  
-
-
-### **The MINOTAUR**  
-**Labyrinth Stalker**  
-> Ambushes prey in twisting corridors.  
-
-
-### **The Piglin Glutton**  
-**Nether’s Insatiable Warlord**  
-> Rules through fear and gluttony.  
-
-
-### **The Deep Dark Creature**  
-**Alpha Warden**  
-> Senses **every** movement and heartbeat.  
+However, should anyone show hostility, whether through aggression, theft, or even a disrespectful word, Moon Glow’s response is swift and unforgiving. In the face of such hostility, the consequences are dire. Those who anger him will be met with a calamity: a force far greater than their transgressions, a reminder that even beauty must be respected. Moon Glow is a figure of balance, offering both benevolence and wrath depending on the actions of those who cross its path.  
 
 
 ### **The Wither**  
-**Explosive Void Entity**  
-> Loves chaos and destruction.  
+**Mysterious Wanderer**  
+A specter of decay and desolation, The Wither wanders the ruins of lost hope. Each step it takes withers the land further, a grim reminder of nature’s inevitable decline in the wake of cosmic despair.  
 
 
-### **Ezekiel - The Evil Arbiter**  
-**Void’s Dealmaker**  
-> Brokers infernal pacts.  
+### **The Lovers**  
+**Samurai Couple**  
+Once, they were the embodiment of devotion pair whose love burned brighter than any flame, their blades moving in perfect harmony. They fought not for conquest, but for each other, bound by honor and an unbreakable bond. Their names were whispered with reverence, their love immortalized in ballads and legend.
+
+But love, like all things, is fragile.
+
+Blinded by pride and tempted by greed, the husband sought greater power, lured by whispers of a forbidden curse. To claim it, he had to make the ultimate sacrifice—his beloved. The blade that had once protected her now severed their bond in a single, merciless strike.
+
+Yet death was not the end.
+
+The curse took hold, binding them in eternal suffering. The wife rose once more, her eyes void of warmth, her soul twisted by betrayal. And the husband, forever haunted, remains shackled to his crime. Now, they fight not as lovers, but as cursed specters, locked in an endless, sorrowful dance of steel and blood.
+
+To witness them in battle is to see both beauty and ruin intertwined, a tragic waltz of love lost and sins unforgotten.  
 
 
-### **Queen Bee**  
-**Hive Matriarch**  
-> Mother of all bees. **Sting first, ask never.**  
+### **Tower Skeleton**  
+**Sentinel of the Forsaken Keep**  
+From the shattered ruins of a once-great fortress lost to time, the Tower Skeleton stands as a grim sentinel of ages past. Its towering form, a monument of bone and rusted armor, looms over the crumbling remains of a forgotten kingdom. Its presence is a silent testament to a world long gone.
 
+Legends whisper that the Tower Skeleton was once a great warlord or a sworn protector, bound by duty even beyond death. Whether by an ancient curse or a cruel fate, it now wanders the forsaken halls and broken battlements, its movements an eerie symphony of clattering bones and grinding steel.
 
-### **The Black Dragon**  
-**Progenitor of Dragons**  
-> Gigantic, hostile, and ancient.  
+Many have tried to claim the secrets buried within its ruined keep, but none have lived to tell the tale. Those who dare approach speak of an overwhelming presence, an unseen force pressing upon their souls, as if the very air mourns the loss of what once was.
 
-
-### **Suku, The Slime Princess**  
-**Sentient Slime**  
-> Acidic ruler of oozes.  
-
- 
-### **Umbraeus - The Void Hydra**  
-**Void-Spawned Hydra**  
-> Regenerating heads from the abyss.  
-
-
-### **Wu**  
-**Bamboo Devourer**  
-> Eats forests worth of bamboo. **Endlessly hungry.**  
+Yet, the question remains does the Tower Skeleton guard something of great power, or is it merely a warden of emptiness, trapped in a duty long forgotten?  
 
 
 ### **Abyssal Knight**  
 **Void’s Dark Paladin**  
-> Fights for eternal darkness.   
+Born from the endless darkness of the Void, the Abyssal Knight is not a mere warrior, but a creation of the abyss itself. A silent sentinel clad in cursed armor, it moves with an eerie grace, as if unbound by the laws of reality.
+
+No one knows who or what forged this being some say it was shaped by the Void’s will, others believe it was once a mortal, swallowed by the abyss and reforged into something far worse. It does not fight for honor, nor for conquest; it is an executioner of those who dare trespass into the unknown.
+
+Legends tell of civilizations erased from history by the swing of its great sword, their very existence consumed by the blackened steel it wields. It does not speak, does not rest—only watches, waits, and hunts. Those who meet its gaze see only the reflection of the abyss staring back.  
+
+
+### **The Piglin Glutton**  
+**Gluttonous Duke**  
+Deep within the burning depths of Ignis Abyss, where flames never die and greed festers like an open wound, the Piglin Glutton sits upon a throne of bone and fat. A grotesque abomination of endless hunger, he is not merely a beast—but a Duke of the Abyss, a living testament to gluttony and corruption.
+
+Once, he was mortal piglin noble who indulged in excess beyond reason, feasting not just on wealth but on flesh. As his greed grew insatiable, so too did his body, twisting into a monstrous form unrecognizable to any of his kin. Now, his bloated body is a prison of his own making, driven by an insatiable hunger that no feast can satisfy.
+
+The Piglin Glutton does not merely consume food, he devours life itself. His followers, bound by madness and hunger, bring him offerings of flesh, knowing that to displease him is to become his next meal. His presence alone warps the land, turning all into a festering pit of filth and decay.
+
+Few dare challenge the gluttonous Duke, for to face him is to stare into the abyss of endless hunger and to realize, too late, that the abyss is staring back.
+
+
+### **Raven Knights**  
+**Cursed Knights**  
+Clad in obsidian armor and wreathed in an aura of silent dread, the Raven Knights are neither living nor truly dead. Bound by an ancient oath older than memory, they walk the twilight path between life and oblivion, eternal sentinels of a fate long forgotten. Their movements are swift, their strikes spectral, a blur of steel and shadow that enforces a justice no mortal can escape.
+
+None know who they once were, only that they were warriors of great renown, champions who stood at the precipice of a world on the brink. Some whisper that they were once gods’ chosen, guardians of a sacred law now lost to time. Others claim they were condemned, knights who defied their purpose, and for their betrayal, were cursed to serve as wardens of the veil.
+
+When they ride, the skies darken, the wind stills, and the world seems to hold its breath. They do not speak. They do not hesitate. They come for those who have long evaded their reckoning, for those who have tipped the balance too far. Their verdict is final, their judgment inescapable.
+
+Some say they await the return of their true master. Others fear that when the final hour arrives, when the last battle is fought, the Raven Knights will ride one last time not to bring order, but to bring an end.
+
+
+### **Hollow Keeper**  
+**Void Keeper**  
+The Hollow Keeper stands alone, a sentinel draped in shadow, his armor worn by time yet untouched by age. He is the guardian of lost memories, the silent warden of secrets too dangerous to be known. Beneath his vacant gaze lies an abyss of sorrow, a weight so vast that even the gods dare not meet his eyes.
+
+He is the leader of the Raven Knights, yet not their master. He commands with neither voice nor steel, but through an unspoken bond that ties him to his spectral legion. They march at his side, moving as extensions of his will, carrying out judgments written in a forgotten tongue. None know if he was the first of them or if he simply took the mantle when the last Keeper fell.
+
+Legends whisper that within his hollow chest beats no heart, only the echoes of oaths long forsaken. Some believe he once fought against the darkness, only to fall victim to its cruel embrace. Others claim he chose this path, sealing away knowledge that, if spoken, could unravel the very fabric of destiny.
+
+To meet the Hollow Keeper is to stand at the edge of oblivion, to glimpse into the void where truth and madness intertwine. He does not slay for vengeance nor for justice, but for something far more terrifying, preservation.
+
+For as long as he stands, the greatest secret of all remains buried. If he were ever to fall, if his watch were ever broken, then the world itself may shatter under the weight of what has been forgotten.
+
+
+### **Corrupt Golem King**  
+**Forgoten King**  
+Once a noble guardian, the Golem King stood as a monument to creation, a being forged from stone and ancient magic to protect the realms from chaos. His towering form was a symbol of strength and order, his rule unwavering. Yet, even the mightiest fall when blinded by ambition.
+
+In his arrogance, he sought to wield the power of the Void, believing that he mere construct of magic and will could tame the endless abyss. He thought himself above corruption, above weakness. But the Void does not serve. It only consumes.
+
+His mind, once pure, became twisted by the whispers of the abyss. His body, once a masterpiece of craftsmanship, now crumbles under the weight of his own hubris, blackened veins of void energy coursing through his stone flesh. No longer a guardian, he became a tyrant king of ruin, ruling over a kingdom of broken stone and shattered dreams.
+
+Those who dare enter his forsaken domain find not a ruler, but a reminder—that no creation, no matter how grand, can claim dominion over the abyss without being swallowed by it.
+
+
+### **Eldric the Blacksmith**  
+**High Duke of Ignis Abyss**  
+In the infernal depths of Ignis Abyss, where flames burn hotter than the sun and metal flows like liquid wrath, Eldric the Blacksmith stands as the highest of dukes. His hammer shapes not just weapons, but the fate of empires, his forge a crucible where both steel and souls are tested.
+
+Once a mere craftsman, Eldric’s mastery of the forge transcended mortal skill, his creations imbued with a power that even the gods covet. It is said that every great blade, every unbreakable armor bears the echo of his hammer’s strike. Some whisper that the very walls of Ignis Abyss were forged by his hands, that the volcanic spires and blackened citadels are but remnants of his ancient work.
+
+Yet, Eldric is no simple artisan. As the High Duke of Ignis Abyss, he commands both fire and war, shaping the armies of hellfire with the same precision he shapes his blades. Many seek his favor, from warlords to demons, yet few are worthy of his craft. To be granted a weapon from Eldric’s forge is to hold a piece of legend itself, though such gifts always come at a price.
+
+Despite his infernal domain, some say there is defiance in his heart, a spark of resistance against the greater darkness that looms beyond. Is he truly a servant of the abyss, or does he craft weapons for a war yet to come?
+
+Only time will tell if Eldric’s forge will temper the world’s salvation or its final destruction.
+
+
+### **Shadow Sorcerer**  
+**Master of Nyxvoid**  
+In the infinite abyss where light dares not tread, he reigns being draped in darkness, his whispers shaping the currents of fate. The Shadow Sorcerer is no mere mortal, no common warlock thirsting for power. He is something older, something unknowable, a celestial who long ago abandoned the light to claim dominion over the unfathomable depths of the Nyxvoid.
+
+Unlike his kin, he does not hide in secrecy, nor does he deny his nature. He declares his sovereignty with a voice that warps the air, a will that bends the laws of existence. The fabric of reality itself trembles at his incantations, as though the world rejects the knowledge he wields. His magic is not stolen—it is his to command, a force that unravels the feeble constructs of gods and mortals alike.
+
+To those who seek him, he offers power, but at a cost beyond understanding. To those who defy him, he offers only oblivion.
+
+Many wonder why he claims the Nyxvoid as his domain, what he sees in the endless black that others fear. Some say he was always meant to rule it, that the void itself chose him. Others believe he is merely a harbinger, preparing the way for something far worse.
+
+Whatever the truth, one fact remains, the Nyxvoid has a master and he is watching.
+
+
+### **Azazel**  
+**The Veil of Wrath**  
+Once a celestial of unimaginable power, Azazel was cast down from the heavens, but the light never abandoned him—nor did his fury. Unlike those who fell into the abyss and embraced the dark, he remains a being of divine radiance, wielding the very magic of the gods he defies. Yet his light does not heal, nor does it guide. It burns, a searing testament to his vengeance, a relentless fire that seeks to consume all that betrayed him.
+
+The heavens bear his scars, their once-pure brilliance tainted by the embers of his wrath. Ruined temples and shattered realms stand as monuments to his retribution, his presence leaving behind nothing but echoes of lamentation. None know the full truth of his fall, whether he was a victim of divine injustice or the architect of his own exile, but his hatred endures, undying, unrelenting.
+
+Unlike those who descend into the abyss and lose themselves to shadow, Azazel still wields holy magic, twisted into a weapon of reckoning. Blades of burning light carve through reality at his command, sanctified energy fuels his war, and divine radiance wraps around him like a cursed halo. He is proof that even the purest light can be a force of ruin.
+
+Some whisper that his vengeance is not mindless, that his wrath has a purpose, a grand design beyond mortal comprehension. Others fear that when the last remnants of his former self finally fade, his war will end not in conquest, but in absolute oblivion.
+
+
+### **Anubis**  
+**Eternal Warden of the Threshold**  
+The eternal warden at the threshold of life and death, Anubis stands as a somber guide to the souls of the departed. His towering figure, adorned in ancient, flowing robes, is a reminder of the delicate balance between existence and oblivion. He presides over the veil between the living and the dead, an undying sentinel whose role is to guide souls to their rightful end.
+
+With a calm but unyielding gaze, Anubis directs the lost spirits through the labyrinth of fate. His presence is both a comfort and a warning, offering solace to the souls of those who have fulfilled their purpose, yet serving as a reminder that all must eventually face their reckoning.
+
+Though he walks the line between life and death, some speak of Anubis' true power—that he alone holds the final judgment over the fate of every soul. What he decides is final, and nothing in the world can change his verdict. His purpose is not one of malice, but of duty—an eternal, unbroken force guiding the cycle of life and death.
+
+Anubis stands as a silent arbiter, watching over the threshold where all things must end, waiting for the next soul to pass into eternity.
+
+
+### **Azriel**  
+**Angel of Death**  
+Beyond mortal comprehension, beyond time itself, Azazel lingers celestial whose name was long erased from sacred scriptures, whose existence is whispered only in the darkest corners of forbidden knowledge. None know if he was once a guardian of the light or a harbinger of the end, for his story is veiled in secrecy, his motives unfathomable.
+
+What is known is this: he does not die. He does not falter. He watches, orchestrating events from the unseen shadows, his presence lingering behind every calamity, every tragedy, every soul lost to the abyss. Kings fall, civilizations crumble, and still, he remains pulling the strings of fate with an unseen hand.
+
+The heavens themselves bear the scars of his wrath. His mere presence ignites the skies in bitter flame, and those who dare to stand in his way feel the weight of an eternity of retribution. Some believe he is a fallen celestial, cast out for a crime so great it was wiped from existence. Others whisper that he is something more a force beyond divinity, beyond understanding.
+
+What does he seek? What is his plan? No one knows. Perhaps, when the final piece falls into place, the answer will be revealed. Or perhaps, by then, it will be too late.
+
+### **The Black Dragon**  
+**Progenitor of Dragons**  
+A being of unfathomable age, the Black Dragon lurks within the endless void of the End, its origins shrouded in myth and silence. Some whisper that it is the last remnant of an ancient god, corrupted and exiled to the abyss, while others believe it has always been there watching and waiting.
+
+Its intelligence is as vast as the void itself, a mind older than recorded history. It does not seek conquest nor destruction, only to protect what lies at the heart of its domain, an egg, pulsing with an eerie, primordial energy. Around it, ominous obsidian pillars rise like an ancient altar, their true purpose long forgotten.
+
+Were they built to worship the beast? To contain it? Or do they serve an even darker purpose?
+
+None knew of the Black Dragon's existence until explorers first set foot into the void. But now that it has been seen, one question lingers in the shadows of the Nyxvoid was it watching all along? 
