@@ -413,7 +413,7 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 | Goblins        | Chaos Trickster        | Monarch of Mischief     | Monarch         |  
 | Humans         | Paragon Commander      | Ruler of Humanity       | Ruler           |  
 | Orcs           | Warbound Berserker     | Monarch of War          | Monarch         |
-| Undead         | Lich                   ! Monarch of Death        | Monarch         |
+| Undead         | Lich                   | Monarch of Death        | Monarch         |
 
 ---
 
@@ -430,6 +430,7 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 | **Goblins**   | `FAST_DIGGING`, `-3 ARMOR`, `+10% SPD`                | `JUMP`, `+10% SPD`, `-3 HEARTS`                  | `+15% LUCK`                    |  
 | **Humans**    | `+7% LUCK`                                            | `-15% LUCK`                                      | `+5% SPD`                      |  
 | **Orcs**      | `+15% DMG`, `HUNGER x2`, `-10% SPD`                   | `+10% DMG`, `SLOW`                               | `+2 ARMOR_TOUGH`               |  
+| **Undead**    |                                                       | `UNKOWN`                                         | `UNKOWN`                       |
 
 --- 
 
