@@ -1,0 +1,1246 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" />
+        <link rel="canonical" href="https://eldenrift.github.io/Docs/index.html" />
+
+    <link rel="shortcut icon" href="_static/minecraft_titlepng.png"/><!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
+        <title>Elden Rift documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="#"><div class="brand">Elden Rift  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="_static/minecraft_titlepng.png" alt="Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/index.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="welcome-to-the-elden-rift-documentation">
+<h1>Welcome to the Elden Rift Documentation<a class="headerlink" href="#welcome-to-the-elden-rift-documentation" title="Link to this heading">¶</a></h1>
+<section id="introduction">
+<h2>1. Introduction 🌍<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p>Welcome to Elden Rift, an RPG server where players embark on epic journeys across diverse realms. Here’s a quick look at what to expect:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Choose Your Race:</strong> Start your adventure by selecting a race and discovering your unique passive traits.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Explore the Overworld:</strong> The world is vast and filled with different biomes, each with its own environment, resources, and challenges. Find the ideal biome for your race to thrive in.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Claim Your Territory:</strong> Find the perfect biome, claim your land, and start growing your community. Enhance your town’s capacity by upgrading members, vaults, and outposts until it thrives into a bustling settlement!</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Level Up Your Tribe:</strong> As you grow, your tribe can evolve, unlocking new powers and structures. Defeat bosses to progress and uncover new areas of the world.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Race Dynamics:</strong> Each race has unique passive traits that define their strengths and weaknesses. These traits can give you an advantage in certain biomes, so use them wisely. As you progress, your race can evolve, unlocking new potential and traits that will help you and your tribe grow stronger.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Uncover the Lore:</strong> As you explore, discover the rich lore of Elden Rift. From ancient events to the secrets of each race, uncover the hidden history that shapes the world.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Boss Fights:</strong> Encounter powerful bosses scattered across the world. These encounters are key to progressing through the server and unlocking new regions and abilities.</p></li>
+</ul>
+</div></blockquote>
+<p>In Elden Rift, your journey is shaped by your choices and the races you interact with. Will you rise as a hero, a tyrant, or a ruler? The choice is yours in Elden Rift!</p>
+</section>
+<hr class="docutils" />
+<section id="elden-rift-prologue-lore">
+<h2>2. Elden Rift Prologue Lore 📜<a class="headerlink" href="#elden-rift-prologue-lore" title="Link to this heading">¶</a></h2>
+<p>In the Age of Awakening, the world emerged from the mists of time, divided into realms of light and shadow. High above all, the floating isle of Aetheris Haven shimmered with eternal radiance. It stood as the cradle of creation and the beacon of peace. From its sacred light unfurled the vibrant lands of Eldoria, where mortal destinies danced with whispered legends. To the south, the burning depths of Ignis Abyss churned with flame and fury, while the silent void of Nyxvoid concealed mysteries too terrible to name.</p>
+<p>In this vast and living tapestry, ancient forces began to stir. Deep within the endless void of the End, a presence older than memory kept watch over a pulsing source of raw, untamed power. It remained unseen, its influence stretching across time like a shadow behind the stars. Not far from this unseen sentinel, a spectral warrior wandered through the emptiness. Clad in cursed armor and wielding a blade as old as sorrow, he moved with eerie grace. Shaped by darkness and reborn from the abyss, he brought silent ruin to all who stood before him, entire civilizations erased by the echo of his passing.</p>
+<p>Across the fractured lands, decay moved as if alive. A creeping specter wandered the ruins, its footsteps withering the ground, a harbinger of nature’s inevitable decline. Within the molten heart of Ignis Abyss, a grotesque figure reigned with monstrous hunger. Once a man, he had long since surrendered to gluttony and corruption, becoming the living embodiment of excess. Twisted by the abyss into something no longer mortal, he consumed not only food, but life itself. His presence left entire regions barren and hollow.</p>
+<p>Yet even in such a bleak age, tales of sorrow and love endured. Among the most haunting was the legend of two noble warriors, once united by honor and bound by passion. Their names were once spoken with reverence, their bond a symbol of hope. But destiny wove cruelty into their fate, and a forbidden curse tore their hearts apart. Where once they fought side by side, now they met in endless, mournful battle, locked in a dance of steel and regret that stretched through lifetimes. Their love lived on as a tragedy etched into time.</p>
+<p>Beneath the fabric of the world, whispers of forgotten divinities stirred. Celestial beings, once revered, now moved unseen beyond the veil of mortal comprehension. Their radiant magic, once pure and harmonious, had curdled into weapons of ruin. The skies bore the scars of their ancient wrath, and where light had once guided, it now blinded. These divine remnants, neither wholly good nor evil, became both guides and omens. Their influence shaped fate in ways few could understand.</p>
+<p>At the threshold between life and oblivion, silent knights rode. Clad in obsidian armor and bound by ancient oaths, they patrolled the edges of destiny itself. They did not speak, nor did they falter. Their presence was a grim reminder that the balance between chaos and order was kept not by kings or gods, but by forces far older and far colder. At their head rode a solitary figure, the Keeper of Forgotten Names. He watched the passage of souls with eyes that had seen too much, guarding secrets that, if unraveled, could undo the weave of the world.</p>
+<p>Within the scorched deeps of Ignis Abyss, the forge of legends still burned. At its heart stood a master of fire and steel, his hands shaping not only weapons but destinies. His creations bore the weight of stories yet to be told, revered by warriors and feared by tyrants. Each blade he forged held the potential to safeguard the realms or reduce them to ash. In every strike of his hammer echoed the paradox of creation and destruction, life bound to death.</p>
+<p>And so the world teetered, caught between unraveling legacies and the stirrings of change. In the space between realms, in the silence of forgotten memories, something ancient was awakening. It was a subtle force, unseen yet ever-present, a quiet promise of transformation. The brave would rise to seek truths buried in darkness, and even the faintest flicker of hope could ignite a fire strong enough to challenge fate.</p>
+<p>For those who dared step into this realm, the path forward was uncertain. Twisting through ruins, riddles, and revelation, each step drew closer to forgotten truths and the unspoken question at the heart of all things. Who would shape the future? And who would be shaped by it?</p>
+</section>
+<hr class="docutils" />
+<section id="world-names">
+<h2>3. World Names 🗺️<a class="headerlink" href="#world-names" title="Link to this heading">¶</a></h2>
+<p>Explore the worlds of <strong>Elden Rift</strong> and their corresponding names in <strong>Minecraft</strong>:</p>
+<ul class="simple">
+<li><p><strong>Aetheris Haven</strong> <em>(Spawn)</em>:<br />
+The cradle of creation and eternal light, a serene sanctuary where life begins and celestial energies guide the first steps.</p></li>
+<li><p><strong>Eldoria</strong> <em>(Overworld)</em>:<br />
+A vibrant world of diverse landscapes, from lush exuberant forests to vast towering mountains, brimming with hidden wonders and ancient mysteries.</p></li>
+<li><p><strong>Ignis Abyss</strong> <em>(Nether)</em>:<br />
+A realm of relentless destruction and chaotic fury, where unquenchable flames sculpt a land of infernal power and ceaseless turmoil.</p></li>
+<li><p><strong>Nyxvoid</strong> <em>(End)</em>:<br />
+The realm of darkness, a mysterious and ancient world where everything is unknown, and forgotten secrets and primeval forces lie in wait.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="biomes-of-elden-rift">
+<h2>4. Biomes of Elden Rift 🌿🏔️<a class="headerlink" href="#biomes-of-elden-rift" title="Link to this heading">¶</a></h2>
+<p>Explore the diverse biomes of <strong>Elden Rift</strong>, each with its unique characteristics and challenges. Discover where your race can thrive and expand your territory!</p>
+<section id="land-biomes">
+<h3>4.1 <strong>Land Biomes</strong><a class="headerlink" href="#land-biomes" title="Link to this heading">¶</a></h3>
+<p><strong>Foliage Fortress</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-04_21 59 24_cropped" src="https://github.com/Rearth/Origen/assets/10100603/e7210ff4-d62d-42c8-93c2-39925123cdc5" />
+Giant plateau with sharp overhangs surrounding it. These overhangs are supported by large stone pillars. A savanna-like environment is found at and around the bottom of the plateau, while the top is covered with all sorts of trees.</p>
+</div></blockquote>
+<p><strong>Gloomy Gorge</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-24_22 53 48_2" src="https://github.com/Rearth/Origen/assets/10100603/91e68bbe-5a3b-408b-93a8-b93b78b782a0" />
+High mountains, with deep valleys and dark, eroded cliffs running through them. The mountainsides are glowing in the dark, and the whole environment is surrounded by all kinds of lush vegetation.</p>
+</div></blockquote>
+<p><strong>Snowy Spires</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-20_15 56 28" src="https://github.com/Rearth/Origen/assets/10100603/7a63755b-334c-4309-9ffc-8a6c913d5c8a" />
+A snowy mesa biome, with giant terracotta pillars. The sandy ground is mostly covered in snow. The pillars are partialy frozen, with large ice chunks often connecting them, and icicles hanging from them.</p>
+</div></blockquote>
+<p><strong>Black Forest</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_16 23 50" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/6e802a05-1993-4720-a23c-64bbfbe99782" />
+Inspired by the german black forest, this mountainy biome has is covered in spruce and birch trees. Includes flat clearings spread throughout the forest. Some of those clearings have a small chance of turning into a mountain lake.</p>
+</div></blockquote>
+<p><strong>Carving Creaks</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-07_23 58 53" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/73406873-ccb2-4d3c-aa7a-71e86f8a39dd" />
+An environment made of very high terracotta plateous, with large canyons and rivers cutting through it. The edges also have a slight terrace visible.</p>
+</div></blockquote>
+<p><strong>Fossilized Fenlands</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-09_23 40 35" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/c8fb50da-f7cd-4222-8200-b8dd74e2b6f6" />
+The dinosaur biome. Mostly flat with some segmented elevations. Can spawn dinosaur fossils, which usually have multiple “rib” segments and a chance to include a giant head on the front.</p>
+</div></blockquote>
+<p><strong>Arid Arboretum</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-25_22 09 37" src="https://github.com/Rearth/Origen/assets/10100603/cd92b628-a35d-456c-9b97-69e9bf12e609" />
+Badlands biome that has been overtaken by an evergreen forest. The arid ground is a mix of grass and sand, with granite patches and giant terracotta pillars, covered in vegetation.</p>
+</div></blockquote>
+<p><strong>Bamboo Basins</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-29_17 29 53" src="https://github.com/Rearth/Origen/assets/10100603/88610a27-3f33-4464-bc33-3a337c14f10b" />
+This biome usually has features a central mountain without any steep cliffs. Multiple rivers flow out from the lakes at the mountain top, and the surfance is covered with eucalyptus trees and bamboo. The ground has both grass and podzol.</p>
+</div></blockquote>
+<p><strong>Frosty Fingers</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_16 40 21" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/44ad0eb0-71d7-4aa4-a6b4-596d9fd4e32c" />
+Cold environment, with weaving snow and ice dunes. Also includes large snow spikes in the valleys between the snow dunes.</p>
+</div></blockquote>
+<p><strong>Mountain Mirrors</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_14 59 37" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/21589086-f37c-4209-9e0d-7c980d9b6b64" />
+The mountain mirrors consist of huge mountains, with multiple terrace layers and steep walls inbetween them. The walls are covered with ice and can result in a mirror-like appearance. Between mountains there often appear frozen lakes. Also has frozen rivers that go through the higher parts of mountains using frozen cave rivers. On the flatter parts of the terrain there can spawn snow-covered trees and ice spikes.</p>
+</div></blockquote>
+<p><strong>Canopy Cascades</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_12 22 30" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/d126e85c-8670-47cb-a774-27d4aba5bf81" />
+Jungle version of the mountain mirrors. Features huge mountains with terraces along it. Usually covered with large jungle trees and a few lush lakes at the bottom.</p>
+</div></blockquote>
+<p><strong>Badland Balconies</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-31_18 23 03" src="https://github.com/Rearth/Origen/assets/10100603/ecb12535-da74-4674-887a-71810e99e12d" />
+Terracotta-covered mountains, with flat areas inbetween, and some terraces along the mountain ridges. Allows for a thin layer of oak trees in the mountains.</p>
+</div></blockquote>
+<p><strong>Lush Loops</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-23_22 49 45" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/005a6e8c-fd1c-4433-b502-8ae629c765ae" />
+A lush jungle environment, with massive eye-catching stone arches looping through the skies.</p>
+</div></blockquote>
+<p><strong>Sandy Splits</strong></p>
+<blockquote>
+<div><p><img alt="2024-01-09_00 14 05" src="https://github.com/Rearth/Origen/assets/10100603/b8b73f8d-9bc4-41dd-83fb-861b710a018f" />
+Large canyon biome that can carve through any land biome. Very deep, with terracotta walls and sand with vegetation at the bottom.</p>
+</div></blockquote>
+<p><strong>Mesa Monuments</strong></p>
+<blockquote>
+<div><p><img alt="2023-07-26_23 29 34" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/cfb8098b-4cab-4e1d-b442-b0d2372fa024" />
+Covered by giant terracotta pillars, the mesa monuments biome is a warm badlands / desert mix. The main feature are the big terracotta pillars in it, which can reach up to 100 blocks into the sky.</p>
+</div></blockquote>
+<p><strong>Rocky refuge</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-21_23 41 42" src="https://github.com/Rearth/Origen/assets/10100603/b31639fa-60fe-4c40-b0c4-a66617d2a9ed" />
+Forested badlands biome, with large, overhanging terracotta boulders. The boulders are covered in leaf vines, and there are sparse tree patches on the floor.</p>
+</div></blockquote>
+<p><strong>White Wallows</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-25_23 12 48" src="https://github.com/Rearth/Origen/assets/10100603/1ef4fe83-dad1-4f00-8bed-1e83039bebb1" />
+Identified by white trenches dug through eroded mountains, the white wallows are home to giant azalea trees. The mountains also house white flowers and deep valleys.</p>
+</div></blockquote>
+<p><strong>Icy Incisions</strong></p>
+<blockquote>
+<div><p><img alt="2024-01-09_21 58 52" src="https://github.com/Rearth/Origen/assets/10100603/cb6730fb-dcc4-4756-936d-975bfe8ff73a" />
+A deep, frozen trench carving through any other cold biome. Covered in webs of snow, with a few snow-covered trees at the bottom</p>
+</div></blockquote>
+<p><strong>Murky Marshlands</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_14 58 22" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/c3b66b84-9597-46b0-99f9-fa0d2b7db7d0" />
+Imagine a unique and exotic rendition of the familiar vanilla swamp. This variant is blanketed by imposing, shadowy trees that exude a mysterious aura. The ground seamlessly blends the realms of water and land, creating a captivating environment. On the land, the terrain showcases a series of interconnected, level expanses that intertwine, each marked by sharp transitions in elevation.</p>
+</div></blockquote>
+<p><strong>Pillow Plains</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_15 04 35" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/c3ead62b-bbfa-495e-b9d4-0fe8805ecf64" />
+Split into a high border segment and a low inner segment, the pillow plains is marked by its small pillars through a green valley. Due to the low height of the inner segment, there are no rivers in this biome, though this will be changed in the future by adding a special low river variant.</p>
+</div></blockquote>
+<p><strong>Scarlet Sanctuary</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-20_21 05 43" src="https://github.com/Rearth/Origen/assets/10100603/37302429-6dfb-47ac-bf1b-e600cbd5b3b3" />
+Sloped biome, with giant cliffs on the sides. Covered in abundant vegetation, some if it with red leaves. The trees in this terrain can grow much larger than usual, and the floor is filled with grass and more vegetation.</p>
+</div></blockquote>
+<p><strong>Watery Wilds</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-08_14 50 16" src="https://github.com/Rearth/Origen/assets/10100603/339771fb-c33d-4449-adb7-aab9946d568a" />
+Savanna-like biome, but partially covered in water, wild small paths leading through the water. Covered in acacia trees and a lot of grass, with small and flat hills.</p>
+</div></blockquote>
+<p><strong>Tall Timberland</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-23_22 31 10" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/685e7708-0a6a-48ff-ac26-cdfbb3e49d0c" />
+These mountains are covered by giant redwood trees. Similar to the black forests, they also feature flat clearing and lakes in between their forest-covered mountains.</p>
+</div></blockquote>
+<p><strong>Tundra Tracks</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-11_22 30 56" src="https://github.com/Rearth/Origen/assets/10100603/bda44763-6728-4b6a-803a-17cb04ca5194" />
+Cold lowlands biome, covered in lakes and small hills. Frozen paths are woven through the lakes. Snow-covered trees are scattered across the landscape.</p>
+</div></blockquote>
+<p><strong>Frozen Fungi</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-20_22 23 46" src="https://github.com/Rearth/Origen/assets/10100603/7df4325b-7fe6-4748-baa5-49e022f70abc" />
+Frozen mushroom biome. The terrain itself is slightly tilted, with huge cliffs on one side. There are small and large mushrooms growing, along with some trees. The ground is covered in snow, mycelium and podzol.</p>
+</div></blockquote>
+<p><strong>Oasis</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-11_22 38 52" src="https://github.com/Rearth/Origen/assets/10100603/55b26ccd-9419-46a2-a126-5688afa997d8" />
+Micro-biome, usually found in the middle of desert biomes. Identified by a small lake in the sand dunes, with palm trees and grass surrounding it.</p>
+</div></blockquote>
+<p><strong>Secluded Valley</strong></p>
+<blockquote>
+<div><p><img alt="2023-07-28_11 47 03" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/9d9705c2-fbcb-4665-9a89-4e44121b724d" />
+At a first glance, the secluded valley is just a large and flat sunflower field. However, there are also huge valleys with a small entrance hidden spread throughout this biome. The valleys containt cherry trees and have a small chance to spawn a giant cherry tree in the middle.</p>
+</div></blockquote>
+<p><strong>Sakura Streams</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-28_23 44 56" src="https://github.com/Rearth/Origen/assets/10100603/609e7642-1bc4-4663-a531-3beb77206229" />
+Giant mountain, with a lake at the top and multiple rivers flowing down the mountainside. Covered with sakura trees and large leaf vines. Has a small chance to small giant sakura trees.</p>
+</div></blockquote>
+<p><strong>Bare Boulderfields</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-16_17 20 02" src="https://github.com/Rearth/Origen/assets/10100603/1660f170-b85f-4aac-8d0a-44ef8efaddab" />
+Barren, rocky mountain, made out of stone plaes. Small trenches are running through the tilted stone plates.</p>
+</div></blockquote>
+<p><strong>Verdant Valley</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_15 07 02" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/4433a0f4-e33b-4568-a416-b704ebd32ba0" />
+The verdant valley is a mostly flat valley with sparse acacia trees. The valley is surrounded by smaller hills which usually have small steep patches with a darker surface.</p>
+</div></blockquote>
+<p><strong>Vertical Vistas</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-23_22 48 15" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/9c2b2375-ad04-4974-bf98-e9599583479c" />
+Huge, towering green mountains. The often are high enough that their peak is covered in snow. At the bottom of these mountains, there is also often a small lake. Few trees and boulders can be found on the surface.</p>
+</div></blockquote>
+</section>
+<section id="cave">
+<h3>4.2 Cave<a class="headerlink" href="#cave" title="Link to this heading">¶</a></h3>
+<p><strong>Inferno Isles</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-27_15 00 32" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/c70a92a2-e8eb-4182-83e4-0ff51526e3ba" />
+Giant cave biome that usually is found around -20 to +40. Contains a big lava lake with interconnected platforms hanging on chains over it. The cave roof is covered with glowing plants.</p>
+</div></blockquote>
+<p><strong>Terracotta Tombs</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-08_21 29 17" src="https://github.com/Rearth/Origen/assets/10100603/373ab5da-44a1-45b5-8272-c4138e050bb3" />
+Underground cavern biome, with a similar shape to the inferno isles. However, this biome is made from terracotta walls, with huge pillars of terracotta in the center.</p>
+</div></blockquote>
+<p><strong>Vine Vault</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-20_15 19 00" src="https://github.com/Rearth/Origen/assets/10100603/0b88368c-6261-4189-bda2-3002d4a71abf" />
+Huge cave, with both the floor and the ceiling covered in lush vegetation. There are crossing and glowing vines on the ceiling, wiih moss and jungle trees on the floor. Enormous pillars connect the floor to the ceiling.</p>
+</div></blockquote>
+</section>
+<section id="coast">
+<h3>4.3 Coast<a class="headerlink" href="#coast" title="Link to this heading">¶</a></h3>
+<p><strong>Marine Monolits</strong></p>
+<blockquote>
+<div><p><img alt="2023-08-23_22 45 49" src="https://github.com/Rearth/UnnamedTerraConfigPack/assets/10100603/29eadfc2-169a-4385-93c2-a2adad62ade7" />
+Towering cliffs biome, only found at the bigger coasts. The biome has a mostly flat area, which is held by large white pillars that reach deep into the water.</p>
+</div></blockquote>
+</section>
+<section id="ocean">
+<h3>4.4 Ocean<a class="headerlink" href="#ocean" title="Link to this heading">¶</a></h3>
+<p><strong>Stonegate Seas</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-08_17 59 02" src="https://github.com/Rearth/Origen/assets/10100603/5e903435-c998-4eea-a078-b0dfc81e4c3c" />
+Medium-depth ocean, with giant stone arches under and on the surface. The arches are made mossy and partially green, with lush green foliage covering it.</p>
+</div></blockquote>
+<p><strong>Abyssal Alleys</strong></p>
+<blockquote>
+<div><p><img alt="2023-10-24_21 25 44" src="https://github.com/Rearth/Origen/assets/10100603/4995f68d-3df5-4ef5-ad36-c95c8a92e58e" />
+Deep ocean variant, with trenches reaching all the way down to bedrock level. There are large, semi-open caves to explore, with fossils at the bottom of the trenches and corals near the top.</p>
+</div></blockquote>
+<p><strong>Arctic Arches</strong></p>
+<blockquote>
+<div><p><img alt="2023-09-08_18 40 55" src="https://github.com/Rearth/Origen/assets/10100603/31ecbfe8-2785-4ea8-a48c-a830223bf63a" />
+Frozen version of the Stonegate Seas, with frozen water segments, and large ice arches reaching through the sky. Icicles are found on the ceiling of the arches.</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="biome-race-mapping">
+<h2>5. Biome&amp;Race Mapping 🏞️➡️🦸‍♂️<a class="headerlink" href="#biome-race-mapping" title="Link to this heading">¶</a></h2>
+<section id="forest-jungle-biomes">
+<h3>5.1 <strong>Forest &amp; Jungle Biomes</strong><a class="headerlink" href="#forest-jungle-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Foliage Fortress</p></td>
+<td><p>Dwarves</p></td>
+<td><p>Dwarves excavate terracotta caverns, unearthing buried relics.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Canopy Cascades</p></td>
+<td><p>Goblins</p></td>
+<td><p>Goblins ambush travelers in desert canyons with chaotic traps.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sakura Streams</p></td>
+<td><p>Elves</p></td>
+<td><p>Elves guard hidden cherry blossom valleys as sacred sanctuaries.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Black Forest</p></td>
+<td><p>Dark Elves</p></td>
+<td><p>Dark Elves lurk in shadowy spruce forests, cloaked in perpetual twilight.</p></td>
+</tr>
+<tr class="row-even"><td><p>Lush Loops</p></td>
+<td><p>Firbolg</p></td>
+<td><p>Firbolg commune with ancient redwoods in these towering forests.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Secluded Valley</p></td>
+<td><p>Angels</p></td>
+<td><p>Angels reside in pristine icy peaks, symbols of celestial purity.</p></td>
+</tr>
+<tr class="row-even"><td><p>Tall Timberland</p></td>
+<td><p>Demons</p></td>
+<td><p>Demons rule lava-filled caves, thriving in molten chaos.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="mountain-arid-biomes">
+<h3>5.2 <strong>Mountain &amp; Arid Biomes</strong><a class="headerlink" href="#mountain-arid-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Snowy Spires</p></td>
+<td><p>Angels</p></td>
+<td><p>Angels reside in pristine icy peaks, symbols of celestial purity.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mountain Mirrors</p></td>
+<td><p>Dwarves</p></td>
+<td><p>Dwarves mine rugged stone plates in these barren, rocky highlands.</p></td>
+</tr>
+<tr class="row-even"><td><p>Bare Boulderfields</p></td>
+<td><p>Orcs</p></td>
+<td><p>Orcs dominate terracotta cliffs as warlords of arid battlegrounds.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Badland Balconies</p></td>
+<td><p>Goblins</p></td>
+<td><p>Goblins ambush travelers in desert canyons with chaotic traps.</p></td>
+</tr>
+<tr class="row-even"><td><p>Carving Creaks</p></td>
+<td><p>Demons</p></td>
+<td><p>Demons rule lava-filled caves, thriving in molten chaos.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Arid Arboretum</p></td>
+<td><p>Elves</p></td>
+<td><p>Elves cultivate acacia-dotted plains as stewards of the wilds.</p></td>
+</tr>
+<tr class="row-even"><td><p>Vertical Vistas</p></td>
+<td><p>Humans</p></td>
+<td><p>Humans farm grassy valleys dotted with stone pillars.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="swamp-wetland-biomes">
+<h3>5.3 <strong>Swamp &amp; Wetland Biomes</strong><a class="headerlink" href="#swamp-wetland-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Murky Marshlands</p></td>
+<td><p>Undead</p></td>
+<td><p>Undead, such as Liches, are often associated with dark, swampy environments, enhancing their eerie presence.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fossilized Fenlands</p></td>
+<td><p>Firbolg</p></td>
+<td><p>Firbolg, with their deep connection to nature, might be found in ancient, fossil-rich wetlands, guarding ancient secrets.</p></td>
+</tr>
+<tr class="row-even"><td><p>Watery Wilds</p></td>
+<td><p>Goblins</p></td>
+<td><p>Goblins, known for their adaptability, could thrive in swampy areas, utilizing the terrain for their mischievous activities.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="tundra-ice-biomes">
+<h3>5.4<strong>Tundra &amp; Ice Biomes</strong><a class="headerlink" href="#tundra-ice-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Frosty Fingers</p></td>
+<td><p>Angels</p></td>
+<td><p>Angels endure the icy dunes, using their celestial presence to navigate and guard the frigid landscape.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tundra Tracks</p></td>
+<td><p>Angels</p></td>
+<td><p>Angels, known for their grace and purity, would traverse the frozen lakes and snow-capped hills in search of harmony.</p></td>
+</tr>
+<tr class="row-even"><td><p>Icy Incisions</p></td>
+<td><p>Demons</p></td>
+<td><p>Demons thrive in the harsh cold, their resilience allowing them to endure deep frozen trenches as they harvest dark power.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Frozen Fungi</p></td>
+<td><p>Demons</p></td>
+<td><p>In frozen mushroom caves, Demons manipulate the cold to create environments where decay thrives, reinforcing their dominion over death.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="cave-underground-biomes">
+<h3>5.5 <strong>Cave &amp; Underground Biomes</strong><a class="headerlink" href="#cave-underground-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Terracotta Tombs</p></td>
+<td><p>Goblins</p></td>
+<td><p>Goblins dig through ancient terracotta caverns, setting traps and discovering treasures for their chaotic plans.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Inferno Isles</p></td>
+<td><p>Demons</p></td>
+<td><p>Demons reign in molten, fiery caves, using the hellish surroundings to fuel their infernal powers.</p></td>
+</tr>
+<tr class="row-even"><td><p>Vine Vault</p></td>
+<td><p>Undead</p></td>
+<td><p>Undead harness the life-force of underground vegetation, using the deep caves to store and revive dark energies.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="plains-valley-biomes">
+<h3>5.6 <strong>Plains &amp; Valley Biomes</strong><a class="headerlink" href="#plains-valley-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Pillow Plains</p></td>
+<td><p>Humans</p></td>
+<td><p>Humans farm grassy valleys dotted with stone pillars.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Verdant Valley</p></td>
+<td><p>Elves</p></td>
+<td><p>Elves cultivate acacia-dotted plains as stewards of the wilds.</p></td>
+</tr>
+<tr class="row-even"><td><p>Oasis</p></td>
+<td><p>Orcs</p></td>
+<td><p>Orcs fiercely defend the rare desert oases, using their strength.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="coastal-ocean-biomes">
+<h3>5.7 <strong>Coastal &amp; Ocean Biomes</strong><a class="headerlink" href="#coastal-ocean-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Marine Monoliths</p></td>
+<td><p>Angels</p></td>
+<td><p>Angels dominate the coastal cliffs, their celestial presence making the ocean gleam with divine light.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Stonegate Seas</p></td>
+<td><p>Angels</p></td>
+<td><p>Angels oversee the stone arches and coral reefs, their wings gracing the sea’s surface in perfect harmony.</p></td>
+</tr>
+<tr class="row-even"><td><p>Abyssal Alleys</p></td>
+<td><p>Demons</p></td>
+<td><p>Demons rule the deep ocean trenches, where they use darkness and fire to manipulate the depths.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Arctic Arches</p></td>
+<td><p>Undead</p></td>
+<td><p>Undead control the frozen ice arches, haunting the cold waters and reviving the remnants of the ancient world.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="unique-biomes">
+<h3>5.8 <strong>Unique Biomes</strong><a class="headerlink" href="#unique-biomes" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome</p></th>
+<th class="head"><p>Race</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Scarlet Sanctuary</p></td>
+<td><p>Demons</p></td>
+<td><p>Demons corrupt red-leafed slopes, twisting vegetation with hellfire.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="biome-race-summary">
+<h3>5.9 <strong>Biome Race Summary</strong><a class="headerlink" href="#biome-race-summary" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Biome Category</p></th>
+<th class="head"><p>Races</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Forest Biomes</strong></p></td>
+<td><p>7 races: Dwarves, Goblins, Elves, Dark Elves, Firbolg, Angels, Demons</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Mountain Biomes</strong></p></td>
+<td><p>7 races: Angels, Dwarves, Orcs, Goblins, Demons, Elves, Humans</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Swamp Biomes</strong></p></td>
+<td><p>3 races: Undead, Firbolg, Goblins</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Tundra Biomes</strong></p></td>
+<td><p>2 races: Angels, Demons</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Cave Biomes</strong></p></td>
+<td><p>3 races: Goblins, Demons, Undead</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Plain Biomes</strong></p></td>
+<td><p>3 races: Humans, Elves, Orcs</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Coastal &amp; Ocean</strong></p></td>
+<td><p>3 races: Angels, Demons, Undead</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Unique Biomes</strong></p></td>
+<td><p>1 race: Demons</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="races-their-lore">
+<h2>6. <strong>Races &amp; Their Lore</strong> 🦸‍♂️📚<a class="headerlink" href="#races-their-lore" title="Link to this heading">¶</a></h2>
+<section id="divine-beings">
+<h3>6.1 <strong>Divine Beings</strong><a class="headerlink" href="#divine-beings" title="Link to this heading">¶</a></h3>
+<p>These races are tied to higher planes of existence, embodying celestial or infernal forces. They are often driven by their divine purpose, whether it’s the protection of balance or the spread of chaos.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Angels:</strong> Divine guardians, born from the heavens, tasked with protecting the balance between light and darkness. Their radiant wings and celestial powers are often used to guide mortals and defend against evil. Angels are revered for their unwavering sense of justice and compassion.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Demons:</strong> Chaotic beings hailing from the Abyss, demons are embodiments of destruction, corruption, and indulgence. Their powers allow them to manipulate fear, fire, and dark magic, and they thrive in environments filled with torment and despair.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="elemental-beings">
+<h3>6.2 <strong>Elemental Beings</strong><a class="headerlink" href="#elemental-beings" title="Link to this heading">¶</a></h3>
+<p>These races are intrinsically linked to the primal forces of nature, drawing power from the elements themselves. They are often seen as protectors of the natural world or as living embodiments of elemental power.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Firbolg:</strong> Gentle giants with a deep connection to the forests and natural spirits, Firbolgs serve as the guardians of the wild. Their magic is tied to the cycles of nature, and they are known for their ability to communicate with the plants and animals they protect. They are patient, wise, and often reclusive, living in harmony with the environment.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="humanoid-beings">
+<h3>6.3 <strong>Humanoid Beings</strong><a class="headerlink" href="#humanoid-beings" title="Link to this heading">¶</a></h3>
+<p>These races are defined by their bipedal forms and complex societies, often blending traits of the natural and supernatural. They are diverse in culture, power, and purpose, shaping the world in their own unique ways.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Humans:</strong> Known for their adaptability, ingenuity, and ambition, Humans are a versatile race capable of great feats of both intellect and strength. Their societies are constantly evolving, driven by the pursuit of knowledge, technology, and progress. Humans are known for their resilience in the face of adversity and their ability to forge powerful alliances.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Elves:</strong> Graceful and long-lived, Elves possess a deep connection to magic and nature. Their civilizations are often built around an understanding of the arcane, and they are revered for their wisdom and refined culture. Elves are often seen as stewards of the natural world, balancing their magical pursuits with a strong respect for the environment.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Dark Elves:</strong> Once proud Elves, the Dark Elves were consumed and corrupted by the Void, turning them into living embodiments of fear. Their mere presence warps the air, suffusing the world with an eerie dread that freezes even the bravest of hearts. Masters of Void magic, they can twist the fabric of reality itself, summoning nightmares from beyond the veil. To face a Dark Elf is to face an inevitability of darkness, where no light can ever reach.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Dwarves:</strong> Short, stocky, and known for their craftsmanship, Dwarves are master miners and builders. They live in vast underground cities and are skilled at forging weapons, armor, and artifacts. Dwarves value tradition, family, and loyalty, and their societies are often centered around strong, close-knit clans that uphold these values.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="beastkin">
+<h3>6.4 <strong>Beastkin</strong><a class="headerlink" href="#beastkin" title="Link to this heading">¶</a></h3>
+<p>These races embody the primal forces of nature, merging animalistic instincts with humanoid forms. Their presence reflects raw power, survival, and an untamed connection to the wild.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Goblins:</strong> Cunning, treacherous, and endlessly resourceful, Goblins are known for their mischievous ways and love for chaos. Often living in caves, dens, or abandoned ruins, they set traps, craft deadly inventions, and outsmart those who underestimate them. Though small in stature, Goblins are unrelenting in their pursuit of power, and their wicked grins hide a thirst for destruction that drives them to create havoc wherever they go.</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Orcs</strong> Fierce, relentless, and bound by blood, Orcs are warriors forged in fire and tradition. Living in warbands and honor-bound clans, they thrive on battle and see strength as the highest virtue. With roaring war cries and iron will, they charge into conflict not for chaos, but for glory, survival, and the pride of their ancestors.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="mythical-creatures">
+<h3>6.5 Mythical Creatures<a class="headerlink" href="#mythical-creatures" title="Link to this heading">¶</a></h3>
+<p>These races transcend mortal understanding, often embodying the unknown, the forbidden, or the undead. Their existence is marked by ancient power, twisted magic, and the aura of death itself.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Undead:</strong> Cold, calculating and bound by eternal will, the Undead seek to bring order through absolute dominion. Often led by ancient liches or deathless kings, they rise not for chaos but to build an eternal empire free of mortal weakness. To them, undeath is perfection, unchanging, immortal and inevitable.</p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="race-evolutions">
+<h2>7. Race Evolutions 🔄<a class="headerlink" href="#race-evolutions" title="Link to this heading">¶</a></h2>
+<p>You mind ask or search how you can lvl up…. but search by yourself in game :)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Race</strong></p></th>
+<th class="head"><p><strong>Evolution 1</strong></p></th>
+<th class="head"><p><strong>Evolution 2</strong></p></th>
+<th class="head"><p><strong>Title Type</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Angels</p></td>
+<td><p>Seraph Commander</p></td>
+<td><p>Ruler of Celestials</p></td>
+<td><p>Ruler</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dark Elves</p></td>
+<td><p>Shadow Enforcer</p></td>
+<td><p>Monarch of Shadows</p></td>
+<td><p>Monarch</p></td>
+</tr>
+<tr class="row-even"><td><p>Demons</p></td>
+<td><p>Infernal Harbinger</p></td>
+<td><p>Monarch of the Abyss</p></td>
+<td><p>Monarch</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dwarves</p></td>
+<td><p>Ironbeard Chancellor</p></td>
+<td><p>Ruler of the Forge</p></td>
+<td><p>Ruler</p></td>
+</tr>
+<tr class="row-even"><td><p>Elves</p></td>
+<td><p>Sylvan Sovereign</p></td>
+<td><p>Ruler of the Wilds</p></td>
+<td><p>Ruler</p></td>
+</tr>
+<tr class="row-odd"><td><p>Firbolg</p></td>
+<td><p>Grove Guardian</p></td>
+<td><p>Ruler of the Verdant</p></td>
+<td><p>Ruler</p></td>
+</tr>
+<tr class="row-even"><td><p>Goblins</p></td>
+<td><p>Chaos Trickster</p></td>
+<td><p>Monarch of Mischief</p></td>
+<td><p>Monarch</p></td>
+</tr>
+<tr class="row-odd"><td><p>Humans</p></td>
+<td><p>Paragon Commander</p></td>
+<td><p>Ruler of Humanity</p></td>
+<td><p>Ruler</p></td>
+</tr>
+<tr class="row-even"><td><p>Orcs</p></td>
+<td><p>Warbound Berserker</p></td>
+<td><p>Monarch of War</p></td>
+<td><p>Monarch</p></td>
+</tr>
+<tr class="row-odd"><td><p>Undead</p></td>
+<td><p>Lich                   ! Monarch of Death</p></td>
+<td><p>Monarch</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="buff-debuff-s">
+<h2>8. Buff &amp; DeBuff’s ⚡💀<a class="headerlink" href="#buff-debuff-s" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Race</p></th>
+<th class="head"><p>Day Effects (🌞)</p></th>
+<th class="head"><p>Night Effects (🌙)</p></th>
+<th class="head"><p>Biome Buff (🏠)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Angels</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">REGEN</span></code>, <code class="docutils literal notranslate"><span class="pre">SLOW_FALLING</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">WEAKNESS</span></code>, <code class="docutils literal notranslate"><span class="pre">GLOWING</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+2</span> <span class="pre">HEARTS</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Dark Elves</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">GLOWING</span></code> / <code class="docutils literal notranslate"><span class="pre">-25%</span> <span class="pre">MAX_HEALTH</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+15%</span> <span class="pre">MAX_HEALTH</span></code>, <code class="docutils literal notranslate"><span class="pre">+10%</span> <span class="pre">DMG</span></code>, <code class="docutils literal notranslate"><span class="pre">+5%</span> <span class="pre">ATK_SPD</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+10%</span> <span class="pre">SPD</span></code>, <code class="docutils literal notranslate"><span class="pre">NIGHT_VISION</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Demons</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">WEAKNESS</span></code>, <code class="docutils literal notranslate"><span class="pre">GLOWING</span></code>, <code class="docutils literal notranslate"><span class="pre">+2%</span> <span class="pre">ATK_SPD</span></code>, <code class="docutils literal notranslate"><span class="pre">+2%</span> <span class="pre">SPD</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+15%</span> <span class="pre">DMG</span></code>, <code class="docutils literal notranslate"><span class="pre">FIRE_RESIST</span></code>, <code class="docutils literal notranslate"><span class="pre">HUNGER</span> <span class="pre">x2</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">INCREASE_DAMAGE</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Dwarves</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">FAST_DIGGING</span></code>, <code class="docutils literal notranslate"><span class="pre">SLOW</span></code>, <code class="docutils literal notranslate"><span class="pre">-10%</span> <span class="pre">ATK_SPD</span></code>, <code class="docutils literal notranslate"><span class="pre">+2</span> <span class="pre">HEARTS</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">FAST_DIGGING</span></code>, <code class="docutils literal notranslate"><span class="pre">SLOW</span> <span class="pre">II</span></code>, <code class="docutils literal notranslate"><span class="pre">-10%</span> <span class="pre">ATK_SPD</span></code>, <code class="docutils literal notranslate"><span class="pre">NIGHT_VISION</span></code>, <code class="docutils literal notranslate"><span class="pre">+5%</span> <span class="pre">DMG</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">-25%</span> <span class="pre">KB_RESIST</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Elves</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+15%</span> <span class="pre">SPD</span></code> / <code class="docutils literal notranslate"><span class="pre">-10%</span> <span class="pre">ARMOR</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">NIGHT_VISION</span></code>, <code class="docutils literal notranslate"><span class="pre">+15%</span> <span class="pre">SPD</span></code>, <code class="docutils literal notranslate"><span class="pre">-2</span> <span class="pre">HEARTS</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">REGEN</span></code>, <code class="docutils literal notranslate"><span class="pre">+10%</span> <span class="pre">ATK_SPD</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Firbolg</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">HEALTH_BOOST</span></code> / <code class="docutils literal notranslate"><span class="pre">-10%</span> <span class="pre">SPD</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">REGEN</span></code>, <code class="docutils literal notranslate"><span class="pre">WEAKNESS</span></code>, <code class="docutils literal notranslate"><span class="pre">+2</span> <span class="pre">HEARTS</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">DAMAGE_RESIST</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Goblins</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">FAST_DIGGING</span></code>, <code class="docutils literal notranslate"><span class="pre">-3</span> <span class="pre">ARMOR</span></code>, <code class="docutils literal notranslate"><span class="pre">+10%</span> <span class="pre">SPD</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">JUMP</span></code>, <code class="docutils literal notranslate"><span class="pre">+10%</span> <span class="pre">SPD</span></code>, <code class="docutils literal notranslate"><span class="pre">-3</span> <span class="pre">HEARTS</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+15%</span> <span class="pre">LUCK</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Humans</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+7%</span> <span class="pre">LUCK</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">-15%</span> <span class="pre">LUCK</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+5%</span> <span class="pre">SPD</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Orcs</strong></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+15%</span> <span class="pre">DMG</span></code>, <code class="docutils literal notranslate"><span class="pre">HUNGER</span> <span class="pre">x2</span></code>, <code class="docutils literal notranslate"><span class="pre">-10%</span> <span class="pre">SPD</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+10%</span> <span class="pre">DMG</span></code>, <code class="docutils literal notranslate"><span class="pre">SLOW</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">+2</span> <span class="pre">ARMOR_TOUGH</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="boss-descriptions">
+<h2>9. Boss Descriptions 👹<a class="headerlink" href="#boss-descriptions" title="Link to this heading">¶</a></h2>
+<p>Weakest to Strongest</p>
+<section id="moon-glow">
+<h3><strong>Moon Glow</strong><a class="headerlink" href="#moon-glow" title="Link to this heading">¶</a></h3>
+<p><strong>The Guiding Light</strong><br />
+Bathed in an ethereal, silvery radiance, Moon Glow is a spectral reminder that even in darkness, beauty endures. Its gentle luminescence stands as a beacon in the shadows, a quiet and mesmerizing presence that captivates all who encounter it. This enigmatic entity is not one of malice, but a guide offering the promise of rebirth and hidden truths to those who seek it.</p>
+<p>Moon Glow is not hostile, but its favor is not easily won. He accepts gifts from those who seek his aid, yet not all offerings are welcome. Only specific types of gifts, carefully chosen and imbued with sincerity, are worthy of his attention. Those who present such gifts with genuine intention will receive guidance, and in some cases, even a glimpse of the secrets that lie beyond mortal understanding.</p>
+<p>However, should anyone show hostility, whether through aggression, theft, or even a disrespectful word, Moon Glow’s response is swift and unforgiving. In the face of such hostility, the consequences are dire. Those who anger him will be met with a calamity: a force far greater than their transgressions, a reminder that even beauty must be respected. Moon Glow is a figure of balance, offering both benevolence and wrath depending on the actions of those who cross its path.</p>
+</section>
+<section id="the-wither">
+<h3><strong>The Wither</strong><a class="headerlink" href="#the-wither" title="Link to this heading">¶</a></h3>
+<p><strong>Mysterious Wanderer</strong><br />
+A specter of decay and desolation, The Wither wanders the ruins of lost hope. Each step it takes withers the land further, a grim reminder of nature’s inevitable decline in the wake of cosmic despair.</p>
+</section>
+<section id="the-lovers">
+<h3><strong>The Lovers</strong><a class="headerlink" href="#the-lovers" title="Link to this heading">¶</a></h3>
+<p><strong>Samurai Couple</strong><br />
+Once, they were the embodiment of devotion pair whose love burned brighter than any flame, their blades moving in perfect harmony. They fought not for conquest, but for each other, bound by honor and an unbreakable bond. Their names were whispered with reverence, their love immortalized in ballads and legend.</p>
+<p>But love, like all things, is fragile.</p>
+<p>Blinded by pride and tempted by greed, the husband sought greater power, lured by whispers of a forbidden curse. To claim it, he had to make the ultimate sacrifice—his beloved. The blade that had once protected her now severed their bond in a single, merciless strike.</p>
+<p>Yet death was not the end.</p>
+<p>The curse took hold, binding them in eternal suffering. The wife rose once more, her eyes void of warmth, her soul twisted by betrayal. And the husband, forever haunted, remains shackled to his crime. Now, they fight not as lovers, but as cursed specters, locked in an endless, sorrowful dance of steel and blood.</p>
+<p>To witness them in battle is to see both beauty and ruin intertwined, a tragic waltz of love lost and sins unforgotten.</p>
+</section>
+<section id="tower-skeleton">
+<h3><strong>Tower Skeleton</strong><a class="headerlink" href="#tower-skeleton" title="Link to this heading">¶</a></h3>
+<p><strong>Sentinel of the Forsaken Keep</strong><br />
+From the shattered ruins of a once-great fortress lost to time, the Tower Skeleton stands as a grim sentinel of ages past. Its towering form, a monument of bone and rusted armor, looms over the crumbling remains of a forgotten kingdom. Its presence is a silent testament to a world long gone.</p>
+<p>Legends whisper that the Tower Skeleton was once a great warlord or a sworn protector, bound by duty even beyond death. Whether by an ancient curse or a cruel fate, it now wanders the forsaken halls and broken battlements, its movements an eerie symphony of clattering bones and grinding steel.</p>
+<p>Many have tried to claim the secrets buried within its ruined keep, but none have lived to tell the tale. Those who dare approach speak of an overwhelming presence, an unseen force pressing upon their souls, as if the very air mourns the loss of what once was.</p>
+<p>Yet, the question remains does the Tower Skeleton guard something of great power, or is it merely a warden of emptiness, trapped in a duty long forgotten?</p>
+</section>
+<section id="abyssal-knight">
+<h3><strong>Abyssal Knight</strong><a class="headerlink" href="#abyssal-knight" title="Link to this heading">¶</a></h3>
+<p><strong>Void’s Dark Paladin</strong><br />
+Born from the endless darkness of the Void, the Abyssal Knight is not a mere warrior, but a creation of the abyss itself. A silent sentinel clad in cursed armor, it moves with an eerie grace, as if unbound by the laws of reality.</p>
+<p>No one knows who or what forged this being some say it was shaped by the Void’s will, others believe it was once a mortal, swallowed by the abyss and reforged into something far worse. It does not fight for honor, nor for conquest; it is an executioner of those who dare trespass into the unknown.</p>
+<p>Legends tell of civilizations erased from history by the swing of its great sword, their very existence consumed by the blackened steel it wields. It does not speak, does not rest—only watches, waits, and hunts. Those who meet its gaze see only the reflection of the abyss staring back.</p>
+</section>
+<section id="the-piglin-glutton">
+<h3><strong>The Piglin Glutton</strong><a class="headerlink" href="#the-piglin-glutton" title="Link to this heading">¶</a></h3>
+<p><strong>Gluttonous Duke</strong><br />
+Deep within the burning depths of Ignis Abyss, where flames never die and greed festers like an open wound, the Piglin Glutton sits upon a throne of bone and fat. A grotesque abomination of endless hunger, he is not merely a beast—but a Duke of the Abyss, a living testament to gluttony and corruption.</p>
+<p>Once, he was mortal piglin noble who indulged in excess beyond reason, feasting not just on wealth but on flesh. As his greed grew insatiable, so too did his body, twisting into a monstrous form unrecognizable to any of his kin. Now, his bloated body is a prison of his own making, driven by an insatiable hunger that no feast can satisfy.</p>
+<p>The Piglin Glutton does not merely consume food, he devours life itself. His followers, bound by madness and hunger, bring him offerings of flesh, knowing that to displease him is to become his next meal. His presence alone warps the land, turning all into a festering pit of filth and decay.</p>
+<p>Few dare challenge the gluttonous Duke, for to face him is to stare into the abyss of endless hunger and to realize, too late, that the abyss is staring back.</p>
+</section>
+<section id="raven-knights">
+<h3><strong>Raven Knights</strong><a class="headerlink" href="#raven-knights" title="Link to this heading">¶</a></h3>
+<p><strong>Cursed Knights</strong><br />
+Clad in obsidian armor and wreathed in an aura of silent dread, the Raven Knights are neither living nor truly dead. Bound by an ancient oath older than memory, they walk the twilight path between life and oblivion, eternal sentinels of a fate long forgotten. Their movements are swift, their strikes spectral, a blur of steel and shadow that enforces a justice no mortal can escape.</p>
+<p>None know who they once were, only that they were warriors of great renown, champions who stood at the precipice of a world on the brink. Some whisper that they were once gods’ chosen, guardians of a sacred law now lost to time. Others claim they were condemned, knights who defied their purpose, and for their betrayal, were cursed to serve as wardens of the veil.</p>
+<p>When they ride, the skies darken, the wind stills, and the world seems to hold its breath. They do not speak. They do not hesitate. They come for those who have long evaded their reckoning, for those who have tipped the balance too far. Their verdict is final, their judgment inescapable.</p>
+<p>Some say they await the return of their true master. Others fear that when the final hour arrives, when the last battle is fought, the Raven Knights will ride one last time not to bring order, but to bring an end.</p>
+</section>
+<section id="hollow-keeper">
+<h3><strong>Hollow Keeper</strong><a class="headerlink" href="#hollow-keeper" title="Link to this heading">¶</a></h3>
+<p><strong>Void Keeper</strong><br />
+The Hollow Keeper stands alone, a sentinel draped in shadow, his armor worn by time yet untouched by age. He is the guardian of lost memories, the silent warden of secrets too dangerous to be known. Beneath his vacant gaze lies an abyss of sorrow, a weight so vast that even the gods dare not meet his eyes.</p>
+<p>He is the leader of the Raven Knights, yet not their master. He commands with neither voice nor steel, but through an unspoken bond that ties him to his spectral legion. They march at his side, moving as extensions of his will, carrying out judgments written in a forgotten tongue. None know if he was the first of them or if he simply took the mantle when the last Keeper fell.</p>
+<p>Legends whisper that within his hollow chest beats no heart, only the echoes of oaths long forsaken. Some believe he once fought against the darkness, only to fall victim to its cruel embrace. Others claim he chose this path, sealing away knowledge that, if spoken, could unravel the very fabric of destiny.</p>
+<p>To meet the Hollow Keeper is to stand at the edge of oblivion, to glimpse into the void where truth and madness intertwine. He does not slay for vengeance nor for justice, but for something far more terrifying, preservation.</p>
+<p>For as long as he stands, the greatest secret of all remains buried. If he were ever to fall, if his watch were ever broken, then the world itself may shatter under the weight of what has been forgotten.</p>
+</section>
+<section id="corrupt-golem-king">
+<h3><strong>Corrupt Golem King</strong><a class="headerlink" href="#corrupt-golem-king" title="Link to this heading">¶</a></h3>
+<p><strong>Forgoten King</strong><br />
+Once a noble guardian, the Golem King stood as a monument to creation, a being forged from stone and ancient magic to protect the realms from chaos. His towering form was a symbol of strength and order, his rule unwavering. Yet, even the mightiest fall when blinded by ambition.</p>
+<p>In his arrogance, he sought to wield the power of the Void, believing that he mere construct of magic and will could tame the endless abyss. He thought himself above corruption, above weakness. But the Void does not serve. It only consumes.</p>
+<p>His mind, once pure, became twisted by the whispers of the abyss. His body, once a masterpiece of craftsmanship, now crumbles under the weight of his own hubris, blackened veins of void energy coursing through his stone flesh. No longer a guardian, he became a tyrant king of ruin, ruling over a kingdom of broken stone and shattered dreams.</p>
+<p>Those who dare enter his forsaken domain find not a ruler, but a reminder—that no creation, no matter how grand, can claim dominion over the abyss without being swallowed by it.</p>
+</section>
+<section id="eldric-the-blacksmith">
+<h3><strong>Eldric the Blacksmith</strong><a class="headerlink" href="#eldric-the-blacksmith" title="Link to this heading">¶</a></h3>
+<p><strong>High Duke of Ignis Abyss</strong><br />
+In the infernal depths of Ignis Abyss, where flames burn hotter than the sun and metal flows like liquid wrath, Eldric the Blacksmith stands as the highest of dukes. His hammer shapes not just weapons, but the fate of empires, his forge a crucible where both steel and souls are tested.</p>
+<p>Once a mere craftsman, Eldric’s mastery of the forge transcended mortal skill, his creations imbued with a power that even the gods covet. It is said that every great blade, every unbreakable armor bears the echo of his hammer’s strike. Some whisper that the very walls of Ignis Abyss were forged by his hands, that the volcanic spires and blackened citadels are but remnants of his ancient work.</p>
+<p>Yet, Eldric is no simple artisan. As the High Duke of Ignis Abyss, he commands both fire and war, shaping the armies of hellfire with the same precision he shapes his blades. Many seek his favor, from warlords to demons, yet few are worthy of his craft. To be granted a weapon from Eldric’s forge is to hold a piece of legend itself, though such gifts always come at a price.</p>
+<p>Despite his infernal domain, some say there is defiance in his heart, a spark of resistance against the greater darkness that looms beyond. Is he truly a servant of the abyss, or does he craft weapons for a war yet to come?</p>
+<p>Only time will tell if Eldric’s forge will temper the world’s salvation or its final destruction.</p>
+</section>
+<section id="shadow-sorcerer">
+<h3><strong>Shadow Sorcerer</strong><a class="headerlink" href="#shadow-sorcerer" title="Link to this heading">¶</a></h3>
+<p><strong>Master of Nyxvoid</strong><br />
+In the infinite abyss where light dares not tread, he reigns being draped in darkness, his whispers shaping the currents of fate. The Shadow Sorcerer is no mere mortal, no common warlock thirsting for power. He is something older, something unknowable, a celestial who long ago abandoned the light to claim dominion over the unfathomable depths of the Nyxvoid.</p>
+<p>Unlike his kin, he does not hide in secrecy, nor does he deny his nature. He declares his sovereignty with a voice that warps the air, a will that bends the laws of existence. The fabric of reality itself trembles at his incantations, as though the world rejects the knowledge he wields. His magic is not stolen—it is his to command, a force that unravels the feeble constructs of gods and mortals alike.</p>
+<p>To those who seek him, he offers power, but at a cost beyond understanding. To those who defy him, he offers only oblivion.</p>
+<p>Many wonder why he claims the Nyxvoid as his domain, what he sees in the endless black that others fear. Some say he was always meant to rule it, that the void itself chose him. Others believe he is merely a harbinger, preparing the way for something far worse.</p>
+<p>Whatever the truth, one fact remains, the Nyxvoid has a master and he is watching.</p>
+</section>
+<section id="azazel">
+<h3><strong>Azazel</strong><a class="headerlink" href="#azazel" title="Link to this heading">¶</a></h3>
+<p><strong>The Veil of Wrath</strong><br />
+Once a celestial of unimaginable power, Azazel was cast down from the heavens, but the light never abandoned him—nor did his fury. Unlike those who fell into the abyss and embraced the dark, he remains a being of divine radiance, wielding the very magic of the gods he defies. Yet his light does not heal, nor does it guide. It burns, a searing testament to his vengeance, a relentless fire that seeks to consume all that betrayed him.</p>
+<p>The heavens bear his scars, their once-pure brilliance tainted by the embers of his wrath. Ruined temples and shattered realms stand as monuments to his retribution, his presence leaving behind nothing but echoes of lamentation. None know the full truth of his fall, whether he was a victim of divine injustice or the architect of his own exile, but his hatred endures, undying, unrelenting.</p>
+<p>Unlike those who descend into the abyss and lose themselves to shadow, Azazel still wields holy magic, twisted into a weapon of reckoning. Blades of burning light carve through reality at his command, sanctified energy fuels his war, and divine radiance wraps around him like a cursed halo. He is proof that even the purest light can be a force of ruin.</p>
+<p>Some whisper that his vengeance is not mindless, that his wrath has a purpose, a grand design beyond mortal comprehension. Others fear that when the last remnants of his former self finally fade, his war will end not in conquest, but in absolute oblivion.</p>
+</section>
+<section id="anubis">
+<h3><strong>Anubis</strong><a class="headerlink" href="#anubis" title="Link to this heading">¶</a></h3>
+<p><strong>Eternal Warden of the Threshold</strong><br />
+The eternal warden at the threshold of life and death, Anubis stands as a somber guide to the souls of the departed. His towering figure, adorned in ancient, flowing robes, is a reminder of the delicate balance between existence and oblivion. He presides over the veil between the living and the dead, an undying sentinel whose role is to guide souls to their rightful end.</p>
+<p>With a calm but unyielding gaze, Anubis directs the lost spirits through the labyrinth of fate. His presence is both a comfort and a warning, offering solace to the souls of those who have fulfilled their purpose, yet serving as a reminder that all must eventually face their reckoning.</p>
+<p>Though he walks the line between life and death, some speak of Anubis’ true power—that he alone holds the final judgment over the fate of every soul. What he decides is final, and nothing in the world can change his verdict. His purpose is not one of malice, but of duty—an eternal, unbroken force guiding the cycle of life and death.</p>
+<p>Anubis stands as a silent arbiter, watching over the threshold where all things must end, waiting for the next soul to pass into eternity.</p>
+</section>
+<section id="azriel">
+<h3><strong>Azriel</strong><a class="headerlink" href="#azriel" title="Link to this heading">¶</a></h3>
+<p><strong>Angel of Death</strong><br />
+Beyond mortal comprehension, beyond time itself, Azazel lingers celestial whose name was long erased from sacred scriptures, whose existence is whispered only in the darkest corners of forbidden knowledge. None know if he was once a guardian of the light or a harbinger of the end, for his story is veiled in secrecy, his motives unfathomable.</p>
+<p>What is known is this: he does not die. He does not falter. He watches, orchestrating events from the unseen shadows, his presence lingering behind every calamity, every tragedy, every soul lost to the abyss. Kings fall, civilizations crumble, and still, he remains pulling the strings of fate with an unseen hand.</p>
+<p>The heavens themselves bear the scars of his wrath. His mere presence ignites the skies in bitter flame, and those who dare to stand in his way feel the weight of an eternity of retribution. Some believe he is a fallen celestial, cast out for a crime so great it was wiped from existence. Others whisper that he is something more a force beyond divinity, beyond understanding.</p>
+<p>What does he seek? What is his plan? No one knows. Perhaps, when the final piece falls into place, the answer will be revealed. Or perhaps, by then, it will be too late.</p>
+</section>
+<section id="the-black-dragon">
+<h3><strong>The Black Dragon</strong><a class="headerlink" href="#the-black-dragon" title="Link to this heading">¶</a></h3>
+<p><strong>Progenitor of Dragons</strong><br />
+A being of unfathomable age, the Black Dragon lurks within the endless void of the End, its origins shrouded in myth and silence. Some whisper that it is the last remnant of an ancient god, corrupted and exiled to the abyss, while others believe it has always been there watching and waiting.</p>
+<p>Its intelligence is as vast as the void itself, a mind older than recorded history. It does not seek conquest nor destruction, only to protect what lies at the heart of its domain, an egg, pulsing with an eerie, primordial energy. Around it, ominous obsidian pillars rise like an ancient altar, their true purpose long forgotten.</p>
+<p>Were they built to worship the beast? To contain it? Or do they serve an even darker purpose?</p>
+<p>None knew of the Black Dragon’s existence until explorers first set foot into the void. But now that it has been seen, one question lingers in the shadows of the Nyxvoid was it watching all along?</p>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2025, Elden Rift
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Welcome to the Elden Rift Documentation</a><ul>
+<li><a class="reference internal" href="#introduction">1. Introduction 🌍</a></li>
+<li><a class="reference internal" href="#elden-rift-prologue-lore">2. Elden Rift Prologue Lore 📜</a></li>
+<li><a class="reference internal" href="#world-names">3. World Names 🗺️</a></li>
+<li><a class="reference internal" href="#biomes-of-elden-rift">4. Biomes of Elden Rift 🌿🏔️</a><ul>
+<li><a class="reference internal" href="#land-biomes">4.1 <strong>Land Biomes</strong></a></li>
+<li><a class="reference internal" href="#cave">4.2 Cave</a></li>
+<li><a class="reference internal" href="#coast">4.3 Coast</a></li>
+<li><a class="reference internal" href="#ocean">4.4 Ocean</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#biome-race-mapping">5. Biome&amp;Race Mapping 🏞️➡️🦸‍♂️</a><ul>
+<li><a class="reference internal" href="#forest-jungle-biomes">5.1 <strong>Forest &amp; Jungle Biomes</strong></a></li>
+<li><a class="reference internal" href="#mountain-arid-biomes">5.2 <strong>Mountain &amp; Arid Biomes</strong></a></li>
+<li><a class="reference internal" href="#swamp-wetland-biomes">5.3 <strong>Swamp &amp; Wetland Biomes</strong></a></li>
+<li><a class="reference internal" href="#tundra-ice-biomes">5.4<strong>Tundra &amp; Ice Biomes</strong></a></li>
+<li><a class="reference internal" href="#cave-underground-biomes">5.5 <strong>Cave &amp; Underground Biomes</strong></a></li>
+<li><a class="reference internal" href="#plains-valley-biomes">5.6 <strong>Plains &amp; Valley Biomes</strong></a></li>
+<li><a class="reference internal" href="#coastal-ocean-biomes">5.7 <strong>Coastal &amp; Ocean Biomes</strong></a></li>
+<li><a class="reference internal" href="#unique-biomes">5.8 <strong>Unique Biomes</strong></a></li>
+<li><a class="reference internal" href="#biome-race-summary">5.9 <strong>Biome Race Summary</strong></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#races-their-lore">6. <strong>Races &amp; Their Lore</strong> 🦸‍♂️📚</a><ul>
+<li><a class="reference internal" href="#divine-beings">6.1 <strong>Divine Beings</strong></a></li>
+<li><a class="reference internal" href="#elemental-beings">6.2 <strong>Elemental Beings</strong></a></li>
+<li><a class="reference internal" href="#humanoid-beings">6.3 <strong>Humanoid Beings</strong></a></li>
+<li><a class="reference internal" href="#beastkin">6.4 <strong>Beastkin</strong></a></li>
+<li><a class="reference internal" href="#mythical-creatures">6.5 Mythical Creatures</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#race-evolutions">7. Race Evolutions 🔄</a></li>
+<li><a class="reference internal" href="#buff-debuff-s">8. Buff &amp; DeBuff’s ⚡💀</a></li>
+<li><a class="reference internal" href="#boss-descriptions">9. Boss Descriptions 👹</a><ul>
+<li><a class="reference internal" href="#moon-glow"><strong>Moon Glow</strong></a></li>
+<li><a class="reference internal" href="#the-wither"><strong>The Wither</strong></a></li>
+<li><a class="reference internal" href="#the-lovers"><strong>The Lovers</strong></a></li>
+<li><a class="reference internal" href="#tower-skeleton"><strong>Tower Skeleton</strong></a></li>
+<li><a class="reference internal" href="#abyssal-knight"><strong>Abyssal Knight</strong></a></li>
+<li><a class="reference internal" href="#the-piglin-glutton"><strong>The Piglin Glutton</strong></a></li>
+<li><a class="reference internal" href="#raven-knights"><strong>Raven Knights</strong></a></li>
+<li><a class="reference internal" href="#hollow-keeper"><strong>Hollow Keeper</strong></a></li>
+<li><a class="reference internal" href="#corrupt-golem-king"><strong>Corrupt Golem King</strong></a></li>
+<li><a class="reference internal" href="#eldric-the-blacksmith"><strong>Eldric the Blacksmith</strong></a></li>
+<li><a class="reference internal" href="#shadow-sorcerer"><strong>Shadow Sorcerer</strong></a></li>
+<li><a class="reference internal" href="#azazel"><strong>Azazel</strong></a></li>
+<li><a class="reference internal" href="#anubis"><strong>Anubis</strong></a></li>
+<li><a class="reference internal" href="#azriel"><strong>Azriel</strong></a></li>
+<li><a class="reference internal" href="#the-black-dragon"><strong>The Black Dragon</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    </body>
+</html>
