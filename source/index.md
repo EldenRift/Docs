@@ -4,19 +4,19 @@
 
 Welcome to Elden Rift, an RPG server where players embark on epic journeys across diverse realms. Here's a quick look at what to expect:
 
->- **Choose Your Race:** Start your adventure by selecting a race and discovering your unique passive traits.
-
->- **Explore the Overworld:** The world is vast and filled with different biomes, each with its own environment, resources, and challenges. Find the ideal biome for your race to thrive in.
-
->- **Claim Your Territory:** Find the perfect biome, claim your land, and start growing your community. Enhance your town’s capacity by upgrading members, vaults, and outposts until it thrives into a bustling settlement!
-
->- **Level Up Your Tribe:** As you grow, your tribe can evolve, unlocking new powers and structures. Defeat bosses to progress and uncover new areas of the world.
-
->- **Race Dynamics:** Each race has unique passive traits that define their strengths and weaknesses. These traits can give you an advantage in certain biomes, so use them wisely. As you progress, your race can evolve, unlocking new potential and traits that will help you and your tribe grow stronger.
-
->- **Uncover the Lore:** As you explore, discover the rich lore of Elden Rift. From ancient events to the secrets of each race, uncover the hidden history that shapes the world.
-
->- **Boss Fights:** Encounter powerful bosses scattered across the world. These encounters are key to progressing through the server and unlocking new regions and abilities.
+| Feature                      | Description                                                           |    
+|------------------------------|-----------------------------------------------------------------------|  
+| **Choose Your Race**         | Begin your journey by selecting one of many unique races and uncovering your distinct passive traits. |  
+| **Battlepass**               | Progress through the seasonal Battlepass to earn exclusive rewards and benefits as you play. (Details coming soon…) |
+| **Server Lore**              | Contribute to and uncover a rich tapestry of lore. While players help shape the server lore, the deeper World Lore remains a mystery waiting to be discovered.|  
+| **Objectives**               | Experience a continuously evolving gameplay experience. Break away from standard vanilla routines and always have new challenges and tasks to complete. |  
+| **New Stuff**                | Enjoy a wealth of new content including fresh ores, distinctive mobs, challenging bosses, innovative armors and tools. All carefully crafted to enhance and expand upon vanilla gameplay. |  
+| **Explore the Overworld**    | Traverse a vast realm filled with diverse biomes, each with unique resources, challenges, and environmental features tailored to help your chosen race thrive. |  
+| **Claim Your Territory**     | Establish your community by claiming the ideal biome for your race. Grow your settlement by upgrading members, vaults, and outposts until it transforms into a bustling town. | 
+| **Uncover the Lore**         | Dive deep into the history of Elden Rift. From ancient events to mysterious secrets behind each race, discover the hidden narratives that shape this vibrant world. | 
+| **Boss Fights**              | 	Encounter epic bosses scattered across the realm. Each battle is a key milestone, unlocking new regions, abilities, and further mysteries to explore. |
+| **Voice Chat Integration**   | Immerse yourself in the world with proximity-based voice chat. Coordinate with your tribe, roleplay your story, or whisper secrets in the shadows using built-in voice chat. |
+| **Waystones & Exploration**  | Fast travel across discovered locations using Waystones. Mark sacred temples, war-torn ruins, or your Town’s capital to build your own fast-travel network. |
 
 In Elden Rift, your journey is shaped by your choices and the races you interact with. Will you rise as a hero, a tyrant, or a ruler? The choice is yours in Elden Rift!
 
@@ -430,7 +430,7 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 | **Goblins**   | `FAST_DIGGING`, `-3 ARMOR`, `+10% SPD`                | `JUMP`, `+10% SPD`, `-3 HEARTS`                  | `+15% LUCK`                    |  
 | **Humans**    | `+7% LUCK`                                            | `-15% LUCK`                                      | `+5% SPD`                      |  
 | **Orcs**      | `+15% DMG`, `HUNGER x2`, `-10% SPD`                   | `+10% DMG`, `SLOW`                               | `+2 ARMOR_TOUGH`               |  
-| **Undead**    |                                                       | `UNKOWN`                                         | `UNKOWN`                       |
+| **Undead**    | `-25% MAX_HEALTH`, `GLOWING`                          | `+15% MAX_HEALTH`, `+10% DMG`, `+5% ATK_SPD`, `REGEN` | `+10% KNOCKBACK_RESIST`, `NIGHT_VISION` |
 
 --- 
 

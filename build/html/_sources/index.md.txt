@@ -4,19 +4,19 @@
 
 Welcome to Elden Rift, an RPG server where players embark on epic journeys across diverse realms. Here's a quick look at what to expect:
 
->- **Choose Your Race:** Start your adventure by selecting a race and discovering your unique passive traits.
-
->- **Explore the Overworld:** The world is vast and filled with different biomes, each with its own environment, resources, and challenges. Find the ideal biome for your race to thrive in.
-
->- **Claim Your Territory:** Find the perfect biome, claim your land, and start growing your community. Enhance your town’s capacity by upgrading members, vaults, and outposts until it thrives into a bustling settlement!
-
->- **Level Up Your Tribe:** As you grow, your tribe can evolve, unlocking new powers and structures. Defeat bosses to progress and uncover new areas of the world.
-
->- **Race Dynamics:** Each race has unique passive traits that define their strengths and weaknesses. These traits can give you an advantage in certain biomes, so use them wisely. As you progress, your race can evolve, unlocking new potential and traits that will help you and your tribe grow stronger.
-
->- **Uncover the Lore:** As you explore, discover the rich lore of Elden Rift. From ancient events to the secrets of each race, uncover the hidden history that shapes the world.
-
->- **Boss Fights:** Encounter powerful bosses scattered across the world. These encounters are key to progressing through the server and unlocking new regions and abilities.
+| Feature                      | Description                                                           |    
+|------------------------------|-----------------------------------------------------------------------|  
+| **Choose Your Race**         | Begin your journey by selecting one of many unique races and uncovering your distinct passive traits. |  
+| **Battlepass**               | Progress through the seasonal Battlepass to earn exclusive rewards and benefits as you play. (Details coming soon…) |
+| **Server Lore**              | Contribute to and uncover a rich tapestry of lore. While players help shape the server lore, the deeper World Lore remains a mystery waiting to be discovered.|  
+| **Objectives**               | Experience a continuously evolving gameplay experience. Break away from standard vanilla routines and always have new challenges and tasks to complete. |  
+| **New Stuff**                | Enjoy a wealth of new content including fresh ores, distinctive mobs, challenging bosses, innovative armors and tools. All carefully crafted to enhance and expand upon vanilla gameplay. |  
+| **Explore the Overworld**    | Traverse a vast realm filled with diverse biomes, each with unique resources, challenges, and environmental features tailored to help your chosen race thrive. |  
+| **Claim Your Territory**     | Establish your community by claiming the ideal biome for your race. Grow your settlement by upgrading members, vaults, and outposts until it transforms into a bustling town. | 
+| **Uncover the Lore**         | Dive deep into the history of Elden Rift. From ancient events to mysterious secrets behind each race, discover the hidden narratives that shape this vibrant world. | 
+| **Boss Fights**              | 	Encounter epic bosses scattered across the realm. Each battle is a key milestone, unlocking new regions, abilities, and further mysteries to explore. |
+| **Voice Chat Integration**   | Immerse yourself in the world with proximity-based voice chat. Coordinate with your tribe, roleplay your story, or whisper secrets in the shadows using built-in voice chat. |
+| **Waystones & Exploration**  | Fast travel across discovered locations using Waystones. Mark sacred temples, war-torn ruins, or your Town’s capital to build your own fast-travel network. |
 
 In Elden Rift, your journey is shaped by your choices and the races you interact with. Will you rise as a hero, a tyrant, or a ruler? The choice is yours in Elden Rift!
 
@@ -272,50 +272,50 @@ Frozen version of the Stonegate Seas, with frozen water segments, and large ice 
 
 | Biome             | Race       | Rationale                                                                   |  
 |-------------------|------------|-----------------------------------------------------------------------------|  
-| Foliage Fortress  | Leonin     | Leonin dominate the savanna-like base of the plateau as apex predators.     |  
-| Canopy Cascades   | Fairy      | Fairy thrive in mystical jungles with terraced waterfalls and hidden magic. |  
-| Sakura Streams    | Fairy      | Enchanted sakura groves resonate with Fairy’s ethereal essence.             |  
+| Foliage Fortress  | Dwarves    | Dwarves excavate terracotta caverns, unearthing buried relics.              |  
+| Canopy Cascades   | Goblins    | Goblins ambush travelers in desert canyons with chaotic traps.              |  
+| Sakura Streams    | Elves      | Elves guard hidden cherry blossom valleys as sacred sanctuaries.            |  
 | Black Forest      | Dark Elves | Dark Elves lurk in shadowy spruce forests, cloaked in perpetual twilight.   |  
-| Lush Loops        | Whelps     | Whelps hunt prey through jungle stone arches and dense vegetation.          |  
-| Secluded Valley   | Elves      | Elves guard hidden cherry blossom valleys as sacred sanctuaries.            |  
-| Tall Timberland   | Firbolg    | Firbolg commune with ancient redwoods in these towering forests.            |  
+| Lush Loops        | Firbolg    | Firbolg commune with ancient redwoods in these towering forests.            |  
+| Secluded Valley   | Angels     | Angels reside in pristine icy peaks, symbols of celestial purity.           |  
+| Tall Timberland   | Demons     | Demons rule lava-filled caves, thriving in molten chaos.                    |  
 
 ### 5.2 **Mountain & Arid Biomes**  
 
 | Biome               | Race       | Rationale                                                                      |   
 |---------------------|------------|--------------------------------------------------------------------------------| 
 | Snowy Spires        | Angels     | Angels reside in pristine icy peaks, symbols of celestial purity.              |  
-| Mountain Mirrors    | Dragonborn | Dragonborn claim frozen, reflective mountains as draconic strongholds.         |  
-| Bare Boulderfields  | Dwarves    | Dwarves mine rugged stone plates in these barren, rocky highlands.             |  
-| Badland Balconies   | Orcs       | Orcs dominate terracotta cliffs as warlords of arid battlegrounds.             |  
-| Carving Creaks      | Goblins    | Goblins ambush travelers in desert canyons with chaotic traps.                 |  
-| Arid Arboretum      | Tiefling   | Tiefling harness hellfire magic in evergreen badlands with terracotta pillars. |  
-| Vertical Vistas     | Goliaths   | Goliaths rule snow-capped green mountains as stoic stone giants.               |  
+| Mountain Mirrors    | Dwarves    | Dwarves mine rugged stone plates in these barren, rocky highlands.             |  
+| Bare Boulderfields  | Orcs       | Orcs dominate terracotta cliffs as warlords of arid battlegrounds.             |  
+| Badland Balconies   | Goblins    | Goblins ambush travelers in desert canyons with chaotic traps.                 |  
+| Carving Creaks      | Demons     | Demons rule lava-filled caves, thriving in molten chaos.                       |  
+| Arid Arboretum      | Elves      | Elves cultivate acacia-dotted plains as stewards of the wilds.                 |  
+| Vertical Vistas     | Humans     | Humans farm grassy valleys dotted with stone pillars.                          |  
 
 ### 5.3 **Swamp & Wetland Biomes**  
 
-| Biome               | Race       | Rationale                                                                  | 
-|---------------------|------------|----------------------------------------------------------------------------|  
-| Murky Marshlands    | Vampire    | Vampires stalk shadowy swamps, blending with mist and decay.               |  
-| Fossilized Fenlands | Lizardfolk | Lizardfolk thrive among dinosaur fossils in primal wetlands.               |  
-| Watery Wilds        | Tritons    | Tritons navigate shallow savanna waters, commanding aquatic pathways.      |  
+| Biome               | Race       | Rationale                                                                                                                     | 
+|---------------------|------------|-------------------------------------------------------------------------------------------------------------------------------|  
+| Murky Marshlands    | Undead     | Undead, such as Liches, are often associated with dark, swampy environments, enhancing their eerie presence.                  |  
+| Fossilized Fenlands | Firbolg    | Firbolg, with their deep connection to nature, might be found in ancient, fossil-rich wetlands, guarding ancient secrets.     |  
+| Watery Wilds        | Goblins    | Goblins, known for their adaptability, could thrive in swampy areas, utilizing the terrain for their mischievous activities.  |  
 
 ### 5.4**Tundra & Ice Biomes**  
 
-| Biome             | Race       | Rationale                                                                  | 
-|-------------------|------------|----------------------------------------------------------------------------|  
-| Frosty Fingers    | Dark Elves | Dark Elves endure icy dunes, using snow spikes for stealth ambushes.       |  
-| Tundra Tracks     | Whelps     | Whelps track prey across frozen lakes and snow-draped hills.               |  
-| Icy Incisions     | Golems     | Golems patrol deep frozen trenches, their stone bodies immune to cold.     |  
-| Frozen Fungi      | Golems     | Golems guard frozen mushroom caves, stabilizing icy terrain.               |  
+| Biome             | Race       | Rationale                                                                                                                               | 
+|-------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------|  
+| Frosty Fingers    | Angels     | Angels endure the icy dunes, using their celestial presence to navigate and guard the frigid landscape.                                 |  
+| Tundra Tracks     | Angels     | Angels, known for their grace and purity, would traverse the frozen lakes and snow-capped hills in search of harmony.                   |  
+| Icy Incisions     | Demons     | Demons thrive in the harsh cold, their resilience allowing them to endure deep frozen trenches as they harvest dark power.              |  
+| Frozen Fungi      | Demons     | In frozen mushroom caves, Demons manipulate the cold to create environments where decay thrives, reinforcing their dominion over death. |  
 
 ### 5.5 **Cave & Underground Biomes**  
 
-| Biome             | Race       | Rationale                                                                  |  
-|-------------------|------------|----------------------------------------------------------------------------| 
-| Terracotta Tombs  | Dwarves    | Dwarves excavate terracotta caverns, unearthing buried relics.             |  
-| Inferno Isles     | Demons     | Demons rule lava-filled caves, thriving in molten chaos.                   |  
-| Vine Vault        | Firbolg    | Firbolg nurture glowing vegetation in lush, pillar-filled caves.           |  
+| Biome             | Race       | Rationale                                                                                                            |  
+|-------------------|------------|----------------------------------------------------------------------------------------------------------------------| 
+| Terracotta Tombs  | Goblins    | Goblins dig through ancient terracotta caverns, setting traps and discovering treasures for their chaotic plans.     |  
+| Inferno Isles     | Demons     | Demons reign in molten, fiery caves, using the hellish surroundings to fuel their infernal powers.                   |  
+| Vine Vault        | Undead     | Undead harness the life-force of underground vegetation, using the deep caves to store and revive dark energies.     |  
 
 ### 5.6 **Plains & Valley Biomes**  
 
@@ -323,16 +323,16 @@ Frozen version of the Stonegate Seas, with frozen water segments, and large ice 
 |-------------------|------------|----------------------------------------------------------------------------|  
 | Pillow Plains     | Humans     | Humans farm grassy valleys dotted with stone pillars.                      |  
 | Verdant Valley    | Elves      | Elves cultivate acacia-dotted plains as stewards of the wilds.             |  
-| Oasis             | Lizardfolk | Lizardfolk ambush travelers at rare desert oases, camouflaged in palms.    |  
+| Oasis             | Orcs       | Orcs fiercely defend the rare desert oases, using their strength.          |  
 
 ### 5.7 **Coastal & Ocean Biomes**  
 
-| Biome             | Race       | Rationale                                                                  |   
-|-------------------|------------|----------------------------------------------------------------------------| 
-| Marine Monoliths  | Tritons    | Tritons command coastal cliffs and white stone pillars rising from the sea.|  
-| Stonegate Seas    | Tritons    | Tritons oversee stone arches and coral reefs in medium-depth waters.       |  
-| Abyssal Alleys    | Demons     | Demons lurk in deep ocean trenches, harvesting submerged fossils.          |  
-| Arctic Arches     | Golems     | Golems stabilize frozen ice arches and icicles in polar waters.            |  
+| Biome             | Race       | Rationale                                                                                                      |   
+|-------------------|------------|----------------------------------------------------------------------------------------------------------------| 
+| Marine Monoliths  | Angels     | Angels dominate the coastal cliffs, their celestial presence making the ocean gleam with divine light.         |  
+| Stonegate Seas    | Angels     | Angels oversee the stone arches and coral reefs, their wings gracing the sea’s surface in perfect harmony.     |  
+| Abyssal Alleys    | Demons     | Demons rule the deep ocean trenches, where they use darkness and fire to manipulate the depths.                |  
+| Arctic Arches     | Undead     | Undead control the frozen ice arches, haunting the cold waters and reviving the remnants of the ancient world. |  
 
 ### 5.8 **Unique Biomes**  
 
@@ -344,14 +344,14 @@ Frozen version of the Stonegate Seas, with frozen water segments, and large ice 
 
 | Biome Category      | Races                                                                 |    
 |---------------------|-----------------------------------------------------------------------|  
-| **Forest Biomes**   | 7 races (Elves, Fairy x2, Dark Elves, Whelps, Firbolg)                |  
-| **Mountain Biomes** | 7 races (Angels, Dragonborn, Dwarves, Orcs, Goblins, Tiefling, Goliaths)|  
-| **Desert Biomes**   | 3 races (Goblins x2, Lizardfolk, Tiefling)                            |  
-| **Swamp Biomes**    | 3 races (Vampires, Lizardfolk, Tritons)                               |  
-| **Tundra Biomes**   | 5 races (Dark Elves, Whelps, Golems x2)                               |  
-| **Cave Biomes**     | 3 races (Dwarves, Demons, Firbolg)                                    |  
-| **Plain Biomes**    | 3 races (Humans x2, Elves)                                            |  
-| **Unique Biomes**   | 1 race (Demons)                                                       | 
+| **Forest Biomes**   | 7 races: Dwarves, Goblins, Elves, Dark Elves, Firbolg, Angels, Demons |  
+| **Mountain Biomes** | 7 races: Angels, Dwarves, Orcs, Goblins, Demons, Elves, Humans        |
+| **Swamp Biomes**    | 3 races: Undead, Firbolg, Goblins                                     |  
+| **Tundra Biomes**   | 2 races: Angels, Demons                                               |  
+| **Cave Biomes**     | 3 races: Goblins, Demons, Undead                                      |  
+| **Plain Biomes**    | 3 races: Humans, Elves, Orcs                                          |  
+| **Coastal & Ocean** | 3 races: Angels, Demons, Undead                                       | 
+| **Unique Biomes**   | 1 race: Demons                                                        | 
 
 ---
 
@@ -365,17 +365,11 @@ These races are tied to higher planes of existence, embodying celestial or infer
 
 >- **Demons:** Chaotic beings hailing from the Abyss, demons are embodiments of destruction, corruption, and indulgence. Their powers allow them to manipulate fear, fire, and dark magic, and they thrive in environments filled with torment and despair.
 
->- **Tieflings:** Descendants of an ancient pact with a primordial entity, Tieflings bear horns, glowing eyes, and a connection to mysterious forces. Unlike demons, their magic is tied to fate, time, and reality, and they often walk a path between the mortal world and powers beyond comprehension. Some seek to understand their heritage, while others fear it.
-
 ### 6.2 **Elemental Beings**
 
 These races are intrinsically linked to the primal forces of nature, drawing power from the elements themselves. They are often seen as protectors of the natural world or as living embodiments of elemental power.
 
->- **Golems:** Living constructs forged from the raw essence of the earth, Golems are animated by elemental forces. Created to serve as guardians or protectors, they embody the strength and durability of the elements they were formed from. Golems are often stoic, driven by their creator’s will, yet possess an innate connection to the land they defend.
-
 >- **Firbolg:** Gentle giants with a deep connection to the forests and natural spirits, Firbolgs serve as the guardians of the wild. Their magic is tied to the cycles of nature, and they are known for their ability to communicate with the plants and animals they protect. They are patient, wise, and often reclusive, living in harmony with the environment.
-
->- **Tritons:** Water-dwelling beings that protect the seas, lakes, and rivers. With an innate mastery of aquatic magic, Tritons possess the ability to command the tides, control water, and even communicate with sea creatures. Their society is built around the preservation of the oceans, and they are often called upon to defend their watery domains from threats.
 
 ### 6.3 **Humanoid Beings**
 
@@ -387,32 +381,21 @@ These races are defined by their bipedal forms and complex societies, often blen
 
 >- **Dark Elves:** Once proud Elves, the Dark Elves were consumed and corrupted by the Void, turning them into living embodiments of fear. Their mere presence warps the air, suffusing the world with an eerie dread that freezes even the bravest of hearts. Masters of Void magic, they can twist the fabric of reality itself, summoning nightmares from beyond the veil. To face a Dark Elf is to face an inevitability of darkness, where no light can ever reach.
 
->- **Goliaths:** Towering, muscular humanoids, Goliaths are often found in harsh, mountainous regions. With incredible physical strength and a stoic nature, they are known for their endurance and resilience. Goliaths value strength and bravery, and their societies are built around proving one's worth through feats of physical prowess.
-
 >- **Dwarves:** Short, stocky, and known for their craftsmanship, Dwarves are master miners and builders. They live in vast underground cities and are skilled at forging weapons, armor, and artifacts. Dwarves value tradition, family, and loyalty, and their societies are often centered around strong, close-knit clans that uphold these values.
 
 ### 6.4 **Beastkin**
 
 These races embody the primal forces of nature, merging animalistic instincts with humanoid forms. Their presence reflects raw power, survival, and an untamed connection to the wild.
 
->- **Leonin:** Fierce lion-like warriors, the Leonin roam vast plains and savannas, where they are revered as unstoppable apex predators. Their strength, speed, and ferocity in battle are legendary, and their prideful spirits demand respect from all who encounter them. Their eyes glow with the embers of the hunt, and their roars echo through the wind, striking fear into their enemies.
-
->- **Lizardfolk:** Cold-blooded and cunning, Lizardfolk are creatures of the swamp and jungle, skilled in stealth and survival. Their scales shimmer in the water as they hunt with ruthless precision. They possess a deep, ancient connection to primal forces and have been known to perform dark rituals to commune with forgotten gods of the wild. Few dare to cross them, for their silent rage is as deadly as the venomous creatures they command.
-
->- **Fairy:** Tiny yet fierce, Fairies are magical beings born from the heart of nature itself. Though small, they possess vast powers over plant life and the elements, often seen as both protectors and tricksters. With wings of shimmering light, they can vanish into thin air or enchant those who wander too close. Beneath their playful exterior lies a deep, ancient wisdom, and those who threaten their domains find themselves cursed in ways that defy mortal understanding.
-
->- **Whelps:** Savage and relentless, Whelps are werewolf-like creatures cursed to shift between human and monstrous wolf forms. Driven by the primal hunger of the beast, they are strongest under the full moon, when their transformation is complete and their senses are heightened to an unnatural degree. Their growls instill terror in the hearts of those who hear them, and their claws can tear through the toughest of armor. Few survive an encounter with a Whelp, and those who do are forever marked by the beast's hunger.
-
 >- **Goblins:** Cunning, treacherous, and endlessly resourceful, Goblins are known for their mischievous ways and love for chaos. Often living in caves, dens, or abandoned ruins, they set traps, craft deadly inventions, and outsmart those who underestimate them. Though small in stature, Goblins are unrelenting in their pursuit of power, and their wicked grins hide a thirst for destruction that drives them to create havoc wherever they go.
 
->- **Dragonborn:** Born of ancient draconic bloodlines, Dragonborn possess the strength, wisdom, and pride of their dragon ancestors. With scales that glint like gemstones and eyes that burn with the intensity of a dragon's fire, they stand as living testaments to the might of their forebears. Whether as noble guardians or fearsome conquerors, Dragonborn exude an aura of authority, and even their slightest movement sends tremors of power through the air.
+>- **Orcs** Fierce, relentless, and bound by blood, Orcs are warriors forged in fire and tradition. Living in warbands and honor-bound clans, they thrive on battle and see strength as the highest virtue. With roaring war cries and iron will, they charge into conflict not for chaos, but for glory, survival, and the pride of their ancestors.
 
-### 6.5 **Mythical Creatures**
+### 6.5 Mythical Creatures
 
 These races transcend mortal understanding, often embodying the unknown, the forbidden, or the undead. Their existence is marked by ancient power, twisted magic, and the aura of death itself.
 
->- **Vampires**: Undead beings of seductive power and bloodlust, Vampires are creatures of the night, thriving on the life force of others. Their fangs are as sharp as their minds, and their gaze can paralyze the will of the strongest minds. With immortality as their curse, they haunt dark castles, ruined cities, and crypts, commanding legions of thralls and manipulating the mortal world to suit their dark desires. Their presence alone sends chills down the spine, for their hunger is never truly sated, and their dark influence spreads like a shadow across the land.
-
+>- **Undead:** Cold, calculating and bound by eternal will, the Undead seek to bring order through absolute dominion. Often led by ancient liches or deathless kings, they rise not for chaos but to build an eternal empire free of mortal weakness. To them, undeath is perfection, unchanging, immortal and inevitable.
 ---
 
 ## 7. Race Evolutions 🔄
@@ -424,22 +407,13 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 | Angels         | Seraph Commander       | Ruler of Celestials     | Ruler           |  
 | Dark Elves     | Shadow Enforcer        | Monarch of Shadows      | Monarch         |  
 | Demons         | Infernal Harbinger     | Monarch of the Abyss    | Monarch         |  
-| Dragonborn     | Draconic Ascendant     | Monarch of Dragons      | Monarch         |  
 | Dwarves        | Ironbeard Chancellor   | Ruler of the Forge      | Ruler           |  
 | Elves          | Sylvan Sovereign       | Ruler of the Wilds      | Ruler           |  
-| Fairy          | Feywind Ambassador     | Ruler of the Fairies    | Ruler           |  
 | Firbolg        | Grove Guardian         | Ruler of the Verdant    | Ruler           |  
 | Goblins        | Chaos Trickster        | Monarch of Mischief     | Monarch         |  
-| Golems         | Obsidian Sentinel      | Ruler of Stone          | Ruler           |  
-| Goliaths       | Stoneheart Goliath     | Ruler of Peaks          | Ruler           |  
 | Humans         | Paragon Commander      | Ruler of Humanity       | Ruler           |  
-| Leonin         | Prideblood Alpha       | Monarch of Beasts       | Monarch         |  
-| Lizardfolk     | Scalebound Predator    | Monarch of Scales       | Monarch         |  
-| Orcs           | Warbound Berserker     | Monarch of War          | Monarch         |  
-| Tiefling       | Hellfire Scion         | Monarch of Embers       | Monarch         |  
-| Tritons        | Abyssal Sentinel       | Ruler of Tides          | Ruler           |  
-| Vampire        | Crimson Scourge        | Monarch of Blood        | Monarch         |  
-| Whelps         | Moonbound Werewolf     | Monarch of the Hunt     | Monarch         |  
+| Orcs           | Warbound Berserker     | Monarch of War          | Monarch         |
+| Undead         | Lich                   | Monarch of Death        | Monarch         |
 
 ---
 
@@ -450,22 +424,13 @@ You mind ask or search how you can lvl up.... but search by yourself in game :)
 | **Angels**    | `REGEN`, `SLOW_FALLING`                               | `WEAKNESS`, `GLOWING`                            | `+2 HEARTS`                    |  
 | **Dark Elves**| `GLOWING` / `-25% MAX_HEALTH`                         | `+15% MAX_HEALTH`, `+10% DMG`, `+5% ATK_SPD`     | `+10% SPD`, `NIGHT_VISION`     |  
 | **Demons**    | `WEAKNESS`, `GLOWING`, `+2% ATK_SPD`, `+2% SPD`       | `+15% DMG`, `FIRE_RESIST`, `HUNGER x2`           | `INCREASE_DAMAGE`              |  
-| **Dragonborn**| `+15% DMG` / `-5% SPD`                                | `+10% ARMOR` / `WEAKNESS`                        | `FIRE_RESIST`, `+1 ARMOR_TOUGH`|  
 | **Dwarves**   | `FAST_DIGGING`, `SLOW`, `-10% ATK_SPD`, `+2 HEARTS`   | `FAST_DIGGING`, `SLOW II`, `-10% ATK_SPD`, `NIGHT_VISION`, `+5% DMG` | `-25% KB_RESIST` |  
 | **Elves**     | `+15% SPD` / `-10% ARMOR`                             | `NIGHT_VISION`, `+15% SPD`, `-2 HEARTS`          | `REGEN`, `+10% ATK_SPD`        |  
-| **Fairy**     | `REGEN` / `-1 ARMOR_TOUGH`                            | `NIGHT_VISION`, `REGEN`, `HUNGER`                | `+25% SPD`, `GLOWING`          |  
 | **Firbolg**   | `HEALTH_BOOST` / `-10% SPD`                           | `REGEN`, `WEAKNESS`, `+2 HEARTS`                 | `DAMAGE_RESIST`                |  
 | **Goblins**   | `FAST_DIGGING`, `-3 ARMOR`, `+10% SPD`                | `JUMP`, `+10% SPD`, `-3 HEARTS`                  | `+15% LUCK`                    |  
-| **Golems**    | `+30% KB_RESIST`, `+6 ARMOR`, `SLOW II`               | `+15% KB_RESIST`, `+3 ARMOR`, `SLOW`             | `+5% SPD`                      |  
-| **Goliaths**  | `+10% DMG`, `HUNGER`, `-5% ATK_SPD`                   | `+20% ARMOR` / `SLOW`                            | `+2 ARMOR_TOUGH`               |  
 | **Humans**    | `+7% LUCK`                                            | `-15% LUCK`                                      | `+5% SPD`                      |  
-| **Leonin**    | `+15% SPD` / `-5% ARMOR`                              | `+10% DMG` / `-10% KB_RESIST`                    | `+20% SPD`, `JUMP`             |  
-| **Lizardfolk**| `WATER_BREATH`, `POISON_RESIST`, `-2 HEARTS`          | `WATER_BREATH`, `POISON_RESIST`, `+5% SPD`       | `+10% DMG`                     |  
 | **Orcs**      | `+15% DMG`, `HUNGER x2`, `-10% SPD`                   | `+10% DMG`, `SLOW`                               | `+2 ARMOR_TOUGH`               |  
-| **Tiefling**  | `HUNGER`, `GLOWING`, `+5% DMG`, `+2% SPD`             | `+10% ATK_SPD`, `HUNGER x2`                      | `INCREASE_DAMAGE`              |  
-| **Tritons**   | `WATER_BREATH`, `DOLPHIN_GRACE II`, `SLOW II`, `+5% DMG` | `WATER_BREATH`, `DOLPHIN_GRACE II`, `SLOW II`, `+5% DMG` | `CONDUIT_POWER` |  
-| **Vampire**   | `WEAKNESS`, `GLOW`, `SLOW`                            | `+10% SPD`, `REGEN`, `NIGHT_VISION`, `+5% DMG`, `HUNGER x2` | `REGEN II` |  
-| **Whelps**    | `-15% LUCK`, `HUNGER`                                 | `NIGHT_VISION`, `+20% ATK_SPD`, `HUNGER x2`, `+1 ARMOR_TOUGH` | `DAMAGE_RESIST` |    
+| **Undead**    | `-25% MAX_HEALTH`, `GLOWING`                          | `+15% MAX_HEALTH`, `+10% DMG`, `+5% ATK_SPD`, `REGEN` | `+10% KNOCKBACK_RESIST`, `NIGHT_VISION` |
 
 --- 
 
